@@ -1,0 +1,278 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "id",
+    "status",
+    "prompt_file",
+    "inputs",
+    "result",
+    "generation",
+    "review"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^SC-\\d{3,}$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "generated",
+        "verified"
+      ]
+    },
+    "prompt_file": {
+      "const": "prompt.md"
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "purpose",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^images/input-\\d{2}\\.(png|jpg|jpeg|webp)$"
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "result": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "path",
+            "sha256"
+          ],
+          "properties": {
+            "path": {
+              "type": "string",
+              "pattern": "^images/result-01\\.(png|jpg|jpeg|webp)$"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "generation": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "model",
+            "model_confirmed",
+            "interface",
+            "generated_at",
+            "parameters",
+            "prompt_sha256"
+          ],
+          "properties": {
+            "model": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "minLength": 1
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "model_confirmed": {
+              "type": "boolean"
+            },
+            "interface": {
+              "enum": [
+                "api",
+                "chatgpt",
+                "codex",
+                "other"
+              ]
+            },
+            "generated_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "parameters": {
+              "type": "object"
+            },
+            "prompt_sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "review": {
+      "anyOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "reviewer",
+            "reviewed_at",
+            "checks",
+            "notes"
+          ],
+          "properties": {
+            "reviewer": {
+              "type": "string",
+              "minLength": 1
+            },
+            "reviewed_at": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "checks": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "prompt_alignment",
+                "style_fidelity",
+                "readability",
+                "text_and_count",
+                "reference_fidelity",
+                "edit_scope"
+              ],
+              "properties": {
+                "prompt_alignment": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "na"
+                  ]
+                },
+                "style_fidelity": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "na"
+                  ]
+                },
+                "readability": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "na"
+                  ]
+                },
+                "text_and_count": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "na"
+                  ]
+                },
+                "reference_fidelity": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "na"
+                  ]
+                },
+                "edit_scope": {
+                  "enum": [
+                    "pass",
+                    "fail",
+                    "na"
+                  ]
+                }
+              }
+            },
+            "notes": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Prompt entry and generation record",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "generated",
+              "verified"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "result": {
+            "type": "object"
+          },
+          "generation": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "verified"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "review": {
+            "type": "object"
+          },
+          "generation": {
+            "properties": {
+              "model": {
+                "type": "string",
+                "minLength": 1
+              },
+              "model_confirmed": {
+                "const": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

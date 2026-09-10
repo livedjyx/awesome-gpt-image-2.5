@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "category",
+      "title",
+      "mode",
+      "style",
+      "mechanism",
+      "scene",
+      "input_count",
+      "acceptance",
+      "phase"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^SC-\\d{3,}$"
+      },
+      "category": {
+        "type": "string",
+        "pattern": "^C\\d{2}$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "mode": {
+        "enum": [
+          "G",
+          "R",
+          "E"
+        ]
+      },
+      "style": {
+        "type": "string",
+        "minLength": 1
+      },
+      "mechanism": {
+        "type": "string",
+        "minLength": 1
+      },
+      "scene": {
+        "type": "string",
+        "minLength": 1
+      },
+      "input_count": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "acceptance": {
+        "type": "string",
+        "minLength": 1
+      },
+      "phase": {
+        "enum": [
+          "pilot",
+          "first100",
+          "expansion"
+        ]
+      }
+    }
+  }
+}

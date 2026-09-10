@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "id": "SC-001",
+  "status": "draft",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": null,
+  "generation": null,
+  "review": null
+}

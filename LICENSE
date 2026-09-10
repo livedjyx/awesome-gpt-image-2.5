@@ -1,0 +1,17 @@
+awesome-gpt-image-2.5 uses separate licenses for content and code.
+
+Content: CC BY 4.0
+Prompt text, prose documentation, catalog data and licensable image rights
+provided by this repository are licensed under Creative Commons Attribution
+4.0 International. See LICENSES/CC-BY-4.0.txt.
+https://creativecommons.org/licenses/by/4.0/
+
+Code: MIT
+Scripts, tests, JSON schemas and development configuration are licensed under
+the MIT License. See LICENSES/MIT.txt.
+
+Attribution: livedjyx / awesome-gpt-image-2.5
+https://github.com/livedjyx/awesome-gpt-image-2.5
+
+The CC BY license applies only to rights that contributors are entitled to grant.
+See docs/licensing.md for attribution examples and scope.

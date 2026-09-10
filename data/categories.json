@@ -1,0 +1,92 @@
+[
+  {
+    "id": "C01",
+    "name": "人像与摄影",
+    "slug": "portraits"
+  },
+  {
+    "id": "C02",
+    "name": "生活旅行与自然",
+    "slug": "travel-nature"
+  },
+  {
+    "id": "C03",
+    "name": "商品与食品",
+    "slug": "products-food"
+  },
+  {
+    "id": "C04",
+    "name": "品牌包装与物料",
+    "slug": "branding-packaging"
+  },
+  {
+    "id": "C05",
+    "name": "海报排版与封面",
+    "slug": "posters-covers"
+  },
+  {
+    "id": "C06",
+    "name": "社交卡片与趣味内容",
+    "slug": "social-cards"
+  },
+  {
+    "id": "C07",
+    "name": "知识卡与教学图解",
+    "slug": "education"
+  },
+  {
+    "id": "C08",
+    "name": "数据图表与技术示意",
+    "slug": "charts-technical"
+  },
+  {
+    "id": "C09",
+    "name": "插画与传统绘画",
+    "slug": "illustration"
+  },
+  {
+    "id": "C10",
+    "name": "角色设定与表情",
+    "slug": "characters"
+  },
+  {
+    "id": "C11",
+    "name": "漫画与分镜",
+    "slug": "comics-storyboards"
+  },
+  {
+    "id": "C12",
+    "name": "游戏与资产设计",
+    "slug": "game-assets"
+  },
+  {
+    "id": "C13",
+    "name": "建筑室内与景观",
+    "slug": "architecture"
+  },
+  {
+    "id": "C14",
+    "name": "微缩等距与场景装置",
+    "slug": "miniatures"
+  },
+  {
+    "id": "C15",
+    "name": "材质变形与超现实创意",
+    "slug": "materials-surreal"
+  },
+  {
+    "id": "C16",
+    "name": "界面与屏幕展示",
+    "slug": "interfaces"
+  },
+  {
+    "id": "C17",
+    "name": "服饰造型与穿搭",
+    "slug": "fashion"
+  },
+  {
+    "id": "C18",
+    "name": "图像编辑与修复",
+    "slug": "editing-restoration"
+  }
+]
