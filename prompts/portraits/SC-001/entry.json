@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-001",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创虚构成年人物，身份参考",
+      "sha256": "5900f757e35bfe6f57d8361b2e3dd98f4d9ac326bfe8760b54b72b0f5c4110ee"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "3f2b403f974429ccde6aaa75b3d69005db13dd0ab6f391fda53bde40b5233955"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:00:33.709476+00:00",
+    "parameters": {},
+    "prompt_sha256": "7b0b006b3daf7e71c033fc598f98c1007a30236d57fd4dbc8d4aa47f9f6aa4b8"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:06:50.307795+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "已对照输入图检查脸部特征、眼镜、短卷发与成年年龄感。左侧窗光、工作室背景和双手位置符合肖像用途；围裙带有可见陶土工作痕迹。画面只有一位人物。"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-170",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创阅读室平面布局图，空间关系参考",
+      "sha256": "56bdbeeac81083619c1e9bc78028e83cb6baa02690f149862dae3ca45f516f24"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "8c06dfaa132910cc6db258d16db78ff3d8c33e83aa6a63aca425ba70f3da3a93"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:02:38.780989+00:00",
+    "parameters": {},
+    "prompt_sha256": "bd0767a7922364e57f749c0a23cd4b3ef9685379c12f69cb872cd2e73bcee3a1"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:06:50.328487+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "已对照平面图检查北侧宽窗、西侧书架、东侧双人沙发和中央阅读桌。桌边有两把椅子；南侧入口位于镜头之外。家具与开口的位置关系保留，结果仅用于空间概念讨论。"
+  }
+}

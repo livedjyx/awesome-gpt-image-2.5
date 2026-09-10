@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-045",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "7924f9591a82129c4c75c400abde364375d174843d82d675ba8fe7b9b5cade62"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:11:32.647409+00:00",
+    "parameters": {},
+    "prompt_sha256": "f6852fc8f3776c7384a3bbfaacaa859381e4375e40135f622f70bfa4ee13d9d4"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:12:31.521560+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已检查四处「晴间」字标与伞形标志的一致性，工作室名称、宣传语与「维修记录」各出现一次。画板为均匀白底，名片、吊牌和伞套均清楚可见，吊牌包含三条空白记录线。"
+  }
+}

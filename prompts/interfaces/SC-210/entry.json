@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-210",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "a721f2255a35401dc0169f8788361840fe3c970537169f4e856a72e13957d204"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:07:03.130678+00:00",
+    "parameters": {},
+    "prompt_sha256": "89fb2fca488081d563b9bfb7d812d24325de676b85899f108e35354ac0f6060a"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:08:36.105937+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已核对应用名、社区名、搜索提示、三个分类、两张工具卡片、借用天数与底部导航。两个「申请借用」按钮位置清楚，内容不与导航重叠；结果为静态界面概念图。"
+  }
+}

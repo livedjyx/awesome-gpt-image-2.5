@@ -2034,7 +2034,7 @@
     "mode": "R",
     "style": "自然写实摄影",
     "mechanism": "依据平面关系生成空间概念视图",
-    "scene": "自绘小型阅读室平面图的室内预览",
+    "scene": "原创小型阅读室平面图的室内预览",
     "input_count": 1,
     "acceptance": "门窗位置与平面一致；不承诺施工精度",
     "phase": "pilot"

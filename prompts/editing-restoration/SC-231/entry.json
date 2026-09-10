@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "SC-231",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待编辑的原创桌面照片",
+      "sha256": "6a064ec8b04537ebe7febade9d6be75fcfd5dbb43301859761d7d7455a40599c"
+    },
+    {
+      "path": "images/input-02.png",
+      "purpose": "原创陶瓷花瓶，替换物体参考",
+      "sha256": "115747123e99a58dcc236432153f5c814a71c55c25f0b846e498487243f964db"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "2a2182f098de758f26c7f88dc585872c5d4dde67c1fbb1e3ee572a79f36c991a"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:06:11.421715+00:00",
+    "parameters": {},
+    "prompt_sha256": "256789347dda3ae656903aecb92793fb2b651ebc545fd7325731f0dfd037437c"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:09:36.827272+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "已对照基底照片与花瓶素材。花瓶位于原水杯区域，高度约为原杯的 1.5 倍，形状和浅蓝釉色保留；笔记本、台灯、墙面光影与桌面构图保持。修改范围按视觉对照检查，不表示逐像素完全相同。"
+  }
+}

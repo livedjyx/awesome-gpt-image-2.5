@@ -1,0 +1,9 @@
+Create a landscape 3:2 brand identity presentation board for an original fictional umbrella repair studio named 「晴间」. Use a clean Swiss editorial grid on ONE continuous, evenly lit, opaque white canvas. The canvas stays pure white across the entire left, middle and right sides. Use dark navy ink for the artwork and text, and small brass-gold accents.
+
+Left third: a large, highly legible dark navy Chinese wordmark 「晴间」 near the top, the studio symbol below it, and three small square color samples along the bottom: white with a thin gray outline, navy, and brass. The large wordmark and symbol have solid dark navy fills against the white paper, like a clearly printed book page.
+
+Right two thirds: three neatly arranged application samples. At the top, a white horizontal business card. Below it on the left, a white repair hangtag. Below it on the right, a navy fabric sleeve for a compact folding umbrella, shown laid flat. Only the fabric sleeve itself is navy; the surrounding presentation canvas is white. Show crisp paper edges and subtle fabric weave under uniform diffuse studio lighting.
+
+Create one simple umbrella symbol and repeat it consistently in all four placements: one semicircular canopy outline with a straight horizontal lower edge, two diagonal rib lines meeting at the bottom center, and a vertical stem that ends in a small curved handle. The left panel, business card and hangtag use navy symbols; the fabric sleeve uses the same symbol in white.
+
+Exact text placement: 「晴间」 appears once in the left panel and once on each of the three application samples, four times total. 「修伞工作室」 appears once on the business card. 「让好伞继续使用」 appears once on the business card. 「维修记录」 appears once on the hangtag, above three empty writing lines. These are the only words in the image. Keep all Chinese characters sharp and readable. Maintain generous whitespace, precise alignment, consistent logo geometry and a restrained flat presentation.

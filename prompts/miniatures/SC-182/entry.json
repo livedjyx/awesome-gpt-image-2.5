@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-182",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "b9a2a0ec206883fe935e2bb42de57a8f34d9b1438533694f4414e9016c7a2fad"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:06:22.660926+00:00",
+    "parameters": {},
+    "prompt_sha256": "c55656c372aacbeb0c6ed00522aabae529c54c139596c5636a255b5690136fa4"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:08:36.103938+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已检查房间底座、墙体切口与家具轴测方向，一辆自行车的双轮和维修支架完整。台面额外出现一个笔筒，其余主要活动区域与提示词一致。此图为三维风格图片，不包含可编辑三维模型。"
+  }
+}

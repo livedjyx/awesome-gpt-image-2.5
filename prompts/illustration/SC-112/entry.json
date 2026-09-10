@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-112",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "00fa83998947ca35d779a41231302ede2888671db334ec1dcb8bd83d314e3c16"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:00:54.966812+00:00",
+    "parameters": {},
+    "prompt_sha256": "0df2c8312120d468eace901eada7d00755092515aa0c95d413a09e08cbdc223a"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:02:11.365755+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "画面恰好三只蜂箱。已检查透明叠色、纸面纹理、远山空气感及栅栏透视，保留水彩的柔边与前景细节。"
+  }
+}

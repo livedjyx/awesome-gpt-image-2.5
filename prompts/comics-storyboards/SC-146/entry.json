@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-146",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "a6c1d8d8eca0f880ebbc8abda4035aa3a2783a6e05221fc7de674f110e6e5363"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:04:04.086035+00:00",
+    "parameters": {},
+    "prompt_sha256": "15e538a0a2de34dc0f112c12ac42f551e3fa1b40c7c62f6d25737e4ee74abcac"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:08:36.094932+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "四格按 1 至 4 展示检查、修理、挂起与轻响后的反应，人物发型、服装和黄铜风铃保持连续。首格聚焦桌上的木槌，深蓝纸签在后三格展示。未出现对白或额外人物。"
+  }
+}

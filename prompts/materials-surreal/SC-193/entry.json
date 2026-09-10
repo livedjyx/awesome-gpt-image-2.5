@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-193",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待编辑的原创木雕小鸟照片",
+      "sha256": "0c5c50b81c04b72e6206966f8679628b66620d4f1ee2b1f81dd983ae5cb0f444"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "46e2a1e33e4b1ac22265122b86f459a173502253c21b975ff2fe252c462d7cb3"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:04:28.102505+00:00",
+    "parameters": {},
+    "prompt_sha256": "781e182bd8bf5df490fc6535c5a4463bf1755ed5d7058bce8d786686874091d6"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:09:36.819272+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "已对照小鸟的尖喙、凹点眼睛、浅浮雕翅膀、短尾和底部轮廓，摆件的位置与背景构图保留。木纹替换为乳浊磨砂玻璃质感，薄边更亮，接触阴影相应变浅；未增加第二件物体。"
+  }
+}

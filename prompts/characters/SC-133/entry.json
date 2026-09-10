@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-133",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创成年灯塔巡护员，角色结构参考",
+      "sha256": "d0fb2a8349ec34d2900b73198c23f8c2cb2e534ee3a8aa49271acaf3872fa3df"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "ef30d7b17ce657aac7786e8c8a3e179eea76d06f126752f0da4a7eb5af1de794"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:02:05.587462+00:00",
+    "parameters": {},
+    "prompt_sha256": "8a39614514af46b122f9e228fd271f3afba63d0fd6ca40b82ee273069aa5e00f"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:06:50.323290+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "已检查正面、左侧面、背面的标注和阅读顺序。三个视图保持成年角色的发型、服装配色、四枚正面纽扣、左胸口袋与左腰手电，背面采用简洁肩部接缝，未增添背包或兜帽。"
+  }
+}

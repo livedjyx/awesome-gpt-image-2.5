@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-232",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待扩展的原创庭院照片",
+      "sha256": "e97a48bf5db85074b1d88648d7232224747a4d399650cd24fbf8d41ad8a0f82a"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "91224b7f5ca939c425f278d956ceefef7b605bb5a46c030d078eb181864e7ab2"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:06:24.135882+00:00",
+    "parameters": {},
+    "prompt_sha256": "a931bd7286dee4bbe079a64474c6d66f4413f30ff93e3c12b3588df38e522a35"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:11:47.907321+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "已对照横向原图检查左侧陶盆、右侧木凳、院墙和攀藤架的相对位置，原构图在竖幅中部保留。上方新增天空与藤叶，下方延续湿石板路；未新增家具或人物，边界没有明显接缝。检查为视觉对照，未声称原区域逐像素不变。"
+  }
+}

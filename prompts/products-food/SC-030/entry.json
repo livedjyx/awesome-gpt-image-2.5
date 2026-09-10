@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-030",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创陶瓷随行杯，产品形状与材质参考",
+      "sha256": "2759d52d9a2d6ce0602128318663abaa714b32ed043eb0cd16de84e637ec320c"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "93468701b45875b3f230e03f536e9d1471f0da3eebeae3948e8a23989db47964"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:01:07.585865+00:00",
+    "parameters": {},
+    "prompt_sha256": "a16e71949956e524d5282ad568c08f837b51e76f183948729f5fab91d6b67cb9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:06:50.312316+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "已对照杯身轮廓、单把手连接、深灰杯盖与奶油色釉斑。结果只有一只完整杯子，留白与接触阴影适合商品展示；釉斑为生成细节，不作为逐点复制记录。"
+  }
+}

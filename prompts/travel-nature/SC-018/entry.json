@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-018",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "adf134f852bab275be3ec43939a06da17c6244b984ee762e75e58a8adff9989d"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T08:58:42.705976+00:00",
+    "parameters": {},
+    "prompt_sha256": "fa6e036cc94051e950f296cb05e72538fd67ba1079913a1f965bbec38848314a"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:02:11.350761+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已检查报刊亭、自行车、湿石板与港湾的空间关系；画面只有一辆自行车，没有可读报刊标题。倒影与临近物体位置相容，保持自然街头摄影质感。"
+  }
+}

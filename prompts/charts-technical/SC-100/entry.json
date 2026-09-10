@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-100",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "75718b9f0d62e8f914c67fe705a42b8393bf20c4c01347a6294b47c8597754e9"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:05:00.649616+00:00",
+    "parameters": {},
+    "prompt_sha256": "0d6c0533a6675e209606576eb866a8e7ae0d12850cf163a693a5d1c5cce26c00"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:06:50.320286+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已核对六个组件标签及引线指向，前盖、刀具、齿轮、后盖与摇柄沿装配方向展开，集屑盒位于下方。结果展示结构概念；刀具几何、传动关系和制造可行性未经工程验证。"
+  }
+}

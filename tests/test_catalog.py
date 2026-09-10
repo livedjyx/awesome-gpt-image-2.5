@@ -77,12 +77,26 @@ class CatalogTests(unittest.TestCase):
         gallery = catalog.read_json(self.root / 'data/gallery.json')
         self.assertEqual(gallery[0]['preview'], 'prompts/demo/SC-001/images/result-01.png')
 
-    def test_unconfirmed_generation_stays_out_of_gallery(self):
+    def test_generated_preview_requires_review_and_keeps_actual_status(self):
         self.make_entry()
         self.entry.update(status='generated', review=None)
         self.entry['generation'].update(model=None, model_confirmed=False)
         self.save_entry()
         self.assertEqual(catalog.build_or_check(self.root, 'build'), (1, 1, 0))
+        self.assertEqual(catalog.read_json(self.root / 'data/gallery.json'), [])
+        self.entry['review'] = {'reviewer': 'unit-test-fixture', 'reviewed_at': '2026-01-01T01:00:00Z',
+            'checks': {'prompt_alignment': 'pass', 'style_fidelity': 'pass', 'readability': 'pass',
+                       'text_and_count': 'na', 'reference_fidelity': 'na', 'edit_scope': 'na'},
+            'notes': 'Synthetic fixture without text or counts.'}
+        self.save_entry()
+        self.assertEqual(catalog.build_or_check(self.root, 'build'), (1, 1, 0))
+        gallery = catalog.read_json(self.root / 'data/gallery.json')
+        self.assertEqual(gallery[0]['status'], 'generated')
+        self.assertIsNone(gallery[0]['model'])
+        self.entry['review']['checks']['prompt_alignment'] = 'fail'
+        self.save_entry()
+        catalog.build_or_check(self.root, 'build')
+        self.assertEqual(catalog.read_json(self.root / 'data/gallery.json'), [])
 
     def test_missing_or_corrupt_image_is_rejected(self):
         self.make_entry()

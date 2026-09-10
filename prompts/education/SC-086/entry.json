@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-086",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "f017e73479bcf0abf33958e477c0c34f1002aef28fd9cf86883e800512628bbe"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:03:52.386906+00:00",
+    "parameters": {},
+    "prompt_sha256": "75854427b3724d6de5627e01db5677db842d381272f25ced76daba280d244ed7"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:06:50.317313+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已核对四个编号、步骤短标题、材料名称和底部说明。插图依次表现浸泡、制浆、混种铺筛和布上吸水干燥；种子在制浆后加入。此案例检查步骤表达，没有开展实际种植试验。"
+  }
+}

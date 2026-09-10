@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-058",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "46b2606294c2f4b036ed75fe7905758bed003dcc6a70252bdb9be1bf27c498ae"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T08:59:05.194061+00:00",
+    "parameters": {},
+    "prompt_sha256": "6f75fa5119e91035af9eddbe1768bb111d12a7242bbc6d8c13e910e71a566105"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:02:11.354756+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已逐项核对标题、日期、时段、地点和说明文字；主视觉包含三本打开的书。标题与底部信息可读，日期和地点为虚构活动设定。"
+  }
+}

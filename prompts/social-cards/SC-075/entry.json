@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-075",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "7125ff4f954af35344c99bf3c73dd83d2a15813798122b3895bb1c9bd8a1298c"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:00:14.019398+00:00",
+    "parameters": {},
+    "prompt_sha256": "6f76fdfd355f46d6820e75437ba974d9eeba8526b45152635d5f6a9c5e791357"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:02:11.361758+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已核对完整短句、署名与「日常观察」文字，句号和虚构身份说明完整。人物与文字分区清楚，使用平面色块和轻微纸面纹理；结果为栅格插画。"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "SC-221",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待编辑的原创成年人物照片",
+      "sha256": "5900f757e35bfe6f57d8361b2e3dd98f4d9ac326bfe8760b54b72b0f5c4110ee"
+    },
+    {
+      "path": "images/input-02.png",
+      "purpose": "原创短款风衣，服装款式与细节参考",
+      "sha256": "92b4cdfb49595dd7617956f56d26de6b4f99cc43917eb9e7f2c08b84a7f3c8ae"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "6c17ec329d511dcaa3aca866f2cc72e1ce70be9616341191b201ba21b3903ec0"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:05:33.142599+00:00",
+    "parameters": {},
+    "prompt_sha256": "5fdde85ee1fd4578e45a78978fe1eaf7ace11e1552abb319bd7ea5bf36f93573"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:09:36.824275+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "已对照人物输入与服装输入，检查脸部、眼镜、发型、站姿、长裤和鞋子。风衣保留四枚纽扣、两个贴袋和尖翻领，袖口位于手腕，双手完整可见。检查依据为可见身份特征与衣服结构。"
+  }
+}

@@ -13,7 +13,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 MODES = {'G': '直接生图', 'R': '参考图引导生成', 'E': '编辑现有图片'}
-STATES = {'planned': '规划中', 'draft': '草稿', 'generated': '已生成待审核', 'verified': '已验证'}
+STATES = {'planned': '规划中', 'draft': '草稿', 'generated': '已配图', 'verified': '已验证'}
 PHASES = {'pilot': '试制', 'first100': '首批补充', 'expansion': '扩展'}
 
 
@@ -95,11 +95,12 @@ def validate_entry(root, item, category, base):
         require(len(record['inputs']) == item['input_count'], f'Input count mismatch: {item["id"]}')
         template = (root / 'templates/prompt.md').read_text(encoding='utf-8').strip()
         require(prompt_text != template, f'Unreplaced prompt template: {item["id"]}')
-    if record['status'] == 'verified':
         require(record['result']['sha256'] not in {image['sha256'] for image in record['inputs']}, 'Result must not be a copy of an input image')
+    if record['review'] and generation:
+        require(datetime.fromisoformat(record['review']['reviewed_at'].replace('Z', '+00:00')) >= datetime.fromisoformat(generation['generated_at'].replace('Z', '+00:00')), 'Review predates generation')
+    if record['status'] == 'verified':
         require(bool(re.fullmatch(r'gpt-image-2\.5(?:[-.][a-zA-Z0-9.-]+)?', generation['model'])), 'Verified gallery requires a confirmed Image 2.5 model identifier')
         review = record['review']
-        require(datetime.fromisoformat(review['reviewed_at'].replace('Z', '+00:00')) >= datetime.fromisoformat(generation['generated_at'].replace('Z', '+00:00')), 'Review predates generation')
         checks = review['checks']
         for key in ['prompt_alignment', 'style_fidelity', 'readability']:
             require(checks[key] == 'pass', f'Review must pass {key}: {item["id"]}')
@@ -150,24 +151,34 @@ def fenced(text, language='text'):
     return f'{fence}{language}\n{text.rstrip()}\n{fence}'
 
 
+def review_passes(item, entry):
+    if not entry or not entry['result'] or not entry['review'] or entry['status'] == 'draft':
+        return False
+    checks = entry['review']['checks']
+    return (all(checks[k] == 'pass' for k in ['prompt_alignment', 'style_fidelity', 'readability'])
+            and checks['text_and_count'] != 'fail'
+            and checks['reference_fidelity'] == ('na' if item['mode'] == 'G' else 'pass')
+            and checks['edit_scope'] == ('pass' if item['mode'] == 'E' else 'na'))
+
+
 def render(root, categories, items, entries):
     by_category = {c['id']: c for c in categories}
     status = lambda item: entries.get(item['id'], {}).get('status', 'planned')
     counts = Counter(status(item) for item in items)
-    verified = [item for item in items if status(item) == 'verified']
-    homepage = ['# awesome-gpt-image-2.5', '', '面向 GPT Image 2.5 的独立创作提示词与实测配图，按用途、风格和输入方式整理。', '',
+    showcase = [item for item in items if review_passes(item, entries.get(item['id']))]
+    homepage = ['# awesome-gpt-image-2.5', '', '面向 GPT Image 2.5 的独立创作提示词与配图，按用途、风格和输入方式整理。', '',
         '[使用方法](docs/usage.md) · [试制清单](docs/pilot.md) · [制作安排](docs/roadmap.md) · [贡献内容](CONTRIBUTING.md)', '',
-        '## 内容进度', '', '| 已验证并发布 | 已生成待审核 | 草稿 | 待制作选题 |', '|---:|---:|---:|---:|',
-        f"| {counts['verified']} | {counts['generated']} | {counts['draft']} | {counts['planned']} |", '',
+        '## 内容进度', '', '| 图库案例 | 已配图 | 草稿 | 待制作选题 |', '|---:|---:|---:|---:|',
+        f"| {len(showcase)} | {counts['generated'] + counts['verified']} | {counts['draft']} | {counts['planned']} |", '',
         f'已规划 {len(categories)} 个分类、{len(items)} 个场景。每条正式发布内容提供可复制的完整提示词、对应结果图和实际生成记录；参考图任务另附必要输入。', '',
-        '## 分类目录', '', '| 分类 | 规划总数 | 已验证 |', '|---|---:|---:|']
+        '## 分类目录', '', '| 分类 | 规划总数 | 图库案例 |', '|---|---:|---:|']
     output = {}
     for category in categories:
         subset = [i for i in items if i['category'] == category['id']]
-        ready = [i for i in subset if status(i) == 'verified']
+        ready = [i for i in subset if review_passes(i, entries.get(i['id']))]
         homepage.append(f"| [{cell(category['name'])}](prompts/{category['slug']}/README.md) | {len(subset)} | {len(ready)} |")
         lines = [f"# {category['name']}", '', '[返回首页](../../README.md) · [使用方法](../../docs/usage.md)', '',
-            f'规划 {len(subset)} 个选题，已验证 {len(ready)} 条。规划中的标题用于浏览制作方向，完成后会链接到对应提示词与结果图。', '',
+            f'规划 {len(subset)} 个选题，图库案例 {len(ready)} 条。点击已制作的条目可查看完整提示词与图片。', '',
             '| 编号 | 场景 | 类型 | 风格 | 状态 | 批次 |', '|---|---|---|---|---|---|']
         for item in subset:
             title = cell(item['title'])
@@ -175,7 +186,7 @@ def render(root, categories, items, entries):
                 title = f"[{title}]({item['id']}/README.md)"
             lines.append(f"| {item['id']} | {title} | {MODES[item['mode']]} | {cell(item['style'])} | {STATES[status(item)]} | {PHASES[item['phase']]} |")
         if ready:
-            lines += ['', '## 已验证配图', '']
+            lines += ['', '## 配图预览', '']
             for item in ready:
                 entry = entries[item['id']]
                 lines += [f"### {item['title']}", '', f"[查看提示词]({item['id']}/README.md)", '',
@@ -184,10 +195,15 @@ def render(root, categories, items, entries):
     homepage += ['', '## 使用方式', '', '| 类型 | 输入方式 |', '|---|---|',
         '| G：直接生图 | 文字；部分条目需给定文案或数据 |', '| R：参考图引导生成 | 参考图片与文字 |', '| E：编辑现有图片 | 待编辑图片、必要素材与修改要求 |', '',
         '## 图库', '']
-    if verified:
-        homepage += ['已验证条目的图片与完整提示词可从分类页面查看。机器可读索引见 [gallery.json](data/gallery.json)。']
+    if showcase:
+        homepage += ['[浏览全部配图](docs/gallery.md) · [查看试制清单](docs/pilot.md)。机器可读索引见 [gallery.json](data/gallery.json)。', '']
+        for item in showcase[:4]:
+            base_rel = f"prompts/{by_category[item['category']]['slug']}/{item['id']}"
+            preview = entries[item['id']]['result']['path']
+            homepage += [f"### [{item['title']}]({base_rel}/README.md)", '',
+                         f'<a href="{base_rel}/README.md"><img src="{base_rel}/{preview}" alt="{cell(item["title"])}" width="480"></a>', '']
     else:
-        homepage += ['首批提示词与配图准备中。当前已验证条目为 0。']
+        homepage += ['首批提示词与配图准备中。']
     homepage += ['', '## 许可', '', '提示词、文档、目录数据及可授权配图采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)；脚本与数据规范采用 [MIT](LICENSES/MIT.txt)。复用时请按 [许可说明](docs/licensing.md) 署名。', '',
         '## 维护', '', '条目规范和图片命名见 [编写规范](docs/entry-format.md)，新增内容可使用 [条目模板](templates/README.md)。', '']
     output['README.md'] = '\n'.join(homepage)
@@ -209,25 +225,25 @@ def render(root, categories, items, entries):
             lines += ['## 输入图片', '']
             for number, image in enumerate(entry['inputs'], 1):
                 lines += [f"输入 {number}：{image['purpose']}", '', f"![输入 {number}]({image['path']})", '']
-        lines += ['## 提示词', '', fenced(text), '', '## 生成记录', '']
-        if entry['generation']:
-            g = entry['generation']
-            lines += [f"模型：{g['model'] or '未确认'}；模型标识已确认：{'是' if g['model_confirmed'] else '否'}。入口：{g['interface']}。时间：{g['generated_at']}。", '',
-                fenced(json.dumps(g['parameters'], ensure_ascii=False, indent=2), 'json'), '']
-        else:
-            lines += ['尚未记录生成信息。', '']
+        lines += ['## 提示词', '', fenced(text), '']
         lines += ['## 检查', '', item['acceptance'], '']
         if entry['review']:
-            lines += [fenced(json.dumps(entry['review'], ensure_ascii=False, indent=2), 'json'), '']
+            lines += [entry['review']['notes'], '']
         else:
             lines += ['尚未完成审核。', '']
-        lines += ['许可：[CC BY 4.0](../../../docs/licensing.md)。', '']
+        lines += ['[生成与检查记录](entry.json) · [提示词原文](prompt.md)', '', '许可：[CC BY 4.0](../../../docs/licensing.md)。', '']
         output[f'{base_rel}/README.md'] = '\n'.join(lines)
-        if entry['status'] == 'verified':
+        if review_passes(item, entry):
             gallery.append({'id': item['id'], 'title': item['title'], 'category': item['category'], 'mode': item['mode'],
                 'style': item['style'], 'page': f'{base_rel}/README.md', 'preview': f"{base_rel}/{entry['result']['path']}",
-                'model': entry['generation']['model']})
+                'status': entry['status'], 'model': entry['generation']['model']})
     output['data/gallery.json'] = json.dumps(gallery, ensure_ascii=False, indent=2) + '\n'
+    gallery_page = ['# 配图浏览', '', '[返回首页](../README.md) · [试制清单](pilot.md)', '',
+                    f'共 {len(gallery)} 个案例。点击标题查看完整提示词、输入素材和对应结果。', '']
+    for item in gallery:
+        gallery_page += [f"## [{item['id']} · {item['title']}](../{item['page']})", '',
+                         f'<a href="../{item["page"]}"><img src="../{item["preview"]}" alt="{cell(item["title"])}" width="480"></a>', '']
+    output['docs/gallery.md'] = '\n'.join(gallery_page)
     pilot = ['# 试制选题', '', '20 个试制选题覆盖全部分类，另外检查中英排版和画面扩展。制作状态自动同步，试制条目计入首批 100 条。', '',
         '| 编号 | 场景 | 类型 | 输入图数量 | 状态 |', '|---|---|---|---:|---|']
     for item in items:
@@ -237,7 +253,7 @@ def render(root, categories, items, entries):
                 target = f"../prompts/{by_category[item['category']]['slug']}/{item['id']}/README.md"
             pilot.append(f"| {item['id']} | [{cell(item['title'])}]({target}) | {MODES[item['mode']]} | {item['input_count']} | {STATES[status(item)]} |")
     output['docs/pilot.md'] = '\n'.join(pilot) + '\n'
-    return output
+    return {path: content.rstrip() + '\n' for path, content in output.items()}
 
 
 def build_or_check(root, action):

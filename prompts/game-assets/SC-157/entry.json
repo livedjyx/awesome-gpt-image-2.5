@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-157",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "0004a18e5e9da48f3cc80ece8b8963b696fd01b76c5633be99272ef80d79580a"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:04:47.667518+00:00",
+    "parameters": {},
+    "prompt_sha256": "a506426f50a2240cbf4c5e6cc00d9d997e6782901a90e29489d596b65214b4d4"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:08:36.099933+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "已逐格核对 4×3 布局的十二套道具、排列顺序与完整边界，手套一副占一个格位。像素块尺度在视觉上统一；结果为图集概念稿，没有执行像素对齐切片或游戏引擎导入测试。"
+  }
+}
