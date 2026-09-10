@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-087",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "7919a293e6d307d08262d65912af309af89006e555657fed91b4a2e63912e1eb"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:43:41.662795+00:00",
+    "parameters": {},
+    "prompt_sha256": "6671379dad0f3f9bbdb785af8d0cdc666c449a7d3a6b694569d729180f1d19fe"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:57.991492+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "六组园艺物件与中英文名称一一对应，手套为一双，三列两行排版和字形清楚。"
+  }
+}

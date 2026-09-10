@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-104",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "0d2f95d6548608e27e4e826cd6b47dd0add6dbfdbe9d20df84ecef662c47c082"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:44:50.990389+00:00",
+    "parameters": {},
+    "prompt_sha256": "59a6e6662ab37b7601336f07d4cf784baaa189bb61c401280473e83646d71d34"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.014167+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "六个人名各出现一次，中央阿青连接五个外围节点，共五条无向线，未出现外围互连。"
+  }
+}

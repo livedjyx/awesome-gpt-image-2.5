@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-101",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "c29e6cff567a87b4011a8817e6237bc67d22a3b675572aa39e3f73f514243b15"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:43:36.769639+00:00",
+    "parameters": {},
+    "prompt_sha256": "680a8271fcfd980446372c914864e78936d7836866148e2330ff3dc2a4549dc1"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.006732+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "四层屋顶材料次序正确，引线落点清楚且不交叉，通风方向通过箭头表达。属于概念分层图。"
+  }
+}

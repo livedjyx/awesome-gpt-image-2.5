@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-186",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "e74b11c400c53adc021297481fe8281eba3695f418198f3d7c1f2c7095be687e"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:52:23.443551+00:00",
+    "parameters": {},
+    "prompt_sha256": "f67b4c1bd2b4d4aeb40e9acb96fd614d072e974c3acf210132d44c1d011d0665"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:07:01.147181+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "蓝色键帽轮廓和斜边清晰，山地缆车站及两处支架位于键帽顶面，黄色车厢悬于索缆，微缩比例明确。"
+  }
+}

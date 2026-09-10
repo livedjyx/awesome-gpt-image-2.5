@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-172",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待布置的原创空房照片",
+      "sha256": "067b8e640c8dc10698500895a577a52c5baff035033aba89ce51005cbac23d86"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "84168ab5be84908c2588d1a85755f47a294866fcce3b48c1c3baabbbad12ff14"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:49:46.244837+00:00",
+    "parameters": {},
+    "prompt_sha256": "f8f0687ca9b07419eb7ebe202608db5ee98ba384f173f00a8e7330cff25873d4"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:59:08.147777+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "窗框、墙角、地板和相机视角延续输入，新增阅读椅、边桌、书架与绿植靠墙安置，中央通道保留。"
+  }
+}

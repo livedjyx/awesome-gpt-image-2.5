@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-080",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "109f9d992f5439b15a914f47030830d6a06678cd420a9bae59854bf14ab22217"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:45:11.134155+00:00",
+    "parameters": {},
+    "prompt_sha256": "b6931f2e97b91f449cbb931775e3b17cb33b58e873450b41c2e06737f6f57dfa"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:57.989311+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "两只仓鼠的颜色和围巾对应，两个气泡分别指向说话者，指定对白正确，桌上只有一盘南瓜。"
+  }
+}

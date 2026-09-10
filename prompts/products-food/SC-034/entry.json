@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-034",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创花瓶形状参考",
+      "sha256": "115747123e99a58dcc236432153f5c814a71c55c25f0b846e498487243f964db"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "d1e4212b7891860c4aa8b86cbedba5b05e9493285f9baeae1cf807e1bc5109d1"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:41:37.653405+00:00",
+    "parameters": {},
+    "prompt_sha256": "f3e0586993f9c3c36cc5eeb5ef2405415bfdd3f442356b1f7c26862ac4bf9883"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.246280+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "六只花瓶按两行三列排列，六种釉色可辨，瓶口、肩线与比例延续输入。"
+  }
+}

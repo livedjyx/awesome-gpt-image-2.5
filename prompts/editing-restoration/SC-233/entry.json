@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-233",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待清理的原创工作台照片",
+      "sha256": "85caaa24918fe01f2ea016677e2fee07ca4cab8a29d69569846fa05de627048b"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "ffca6c2f0d3e334781325db6a5a30af243999a63bcde1a28f3ed00a4a6848b80"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T10:01:28.800614+00:00",
+    "parameters": {},
+    "prompt_sha256": "0d7502f7d39ccf883784cff10b35ebf37b14fd9ee0a3d73a8f18cf0a9c589a3e"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.602226+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "右后纸箱及其阴影已移除，补全桌面木纹和墙面连续；左侧木柄金属锤、尺、窗户与桌沿的位置保留。"
+  }
+}

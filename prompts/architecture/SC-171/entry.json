@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-171",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "d26705d9fa47ca2e06998e2ebba38d4ae066fabc80f94bad2506550bc1b15792"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:49:18.028159+00:00",
+    "parameters": {},
+    "prompt_sha256": "5b4511b6904f143a8007be82dd226ee573b437121d8db909c4850a4bdc236b98"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:59:08.143995+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "入口、两侧大窗和左侧坡道连贯，室内陶器与桌架可辨，门头文字正确。"
+  }
+}

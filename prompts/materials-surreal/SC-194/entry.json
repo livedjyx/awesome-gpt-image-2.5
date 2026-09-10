@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-194",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待编辑的原创折纸蜻蜓",
+      "sha256": "4921e4a6ac62fdd2c614bc9d30511add1b5243d6af9e744299d928ce5678daf4"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "1befec3a5e9e7dd8cde1b54c91f695082759c0aad749d8da8b61f404cf6b51f4"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:51:39.323457+00:00",
+    "parameters": {},
+    "prompt_sha256": "ef4b2046bafb35fc165581b1a0263803f3d56e96b086fcb3e0e79fa6111c3300"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.562606+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "四翼轮廓、夹角、头部与分段尾的位置和输入一致，纸面转为拉丝银色金属，主要折线及浅灰背景保留，未增加零件。"
+  }
+}

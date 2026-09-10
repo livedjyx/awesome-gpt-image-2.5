@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-006",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "91da64caa1051f6c7794c7067f3763720cdd1b1b18ef8a789f91de51b8945632"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:32:44.241129+00:00",
+    "parameters": {},
+    "prompt_sha256": "ac80445e553f280bd7d14372b4077c175bcb93c02930144d0370cb2b94af584c"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.215862+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "人物侧影与海岸、灯塔形成双重曝光，五官边缘可读，内外明暗衔接自然。"
+  }
+}

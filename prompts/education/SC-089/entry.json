@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-089",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "b04b9a66fb126db0ef094ee6cc2533f8d24eaa1db7aea97c9f51f0366c66ffcf"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:44:56.056270+00:00",
+    "parameters": {},
+    "prompt_sha256": "499d30e9ac1d638bd519da7e129abe0ba21a711633d8260e3ea9f55c750ce8c2"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:57.999618+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "左上光源、球体受光与背光区域、右下投影相互一致，三条引线指向相应区域。"
+  }
+}

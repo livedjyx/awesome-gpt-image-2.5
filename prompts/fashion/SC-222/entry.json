@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-222",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创虚构成年人物身份参考",
+      "sha256": "5900f757e35bfe6f57d8361b2e3dd98f4d9ac326bfe8760b54b72b0f5c4110ee"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "9455e96f397400c9c948dff495ca0691be53e5d07c4986ad7422d3ab7c30c909"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:56:33.535291+00:00",
+    "parameters": {},
+    "prompt_sha256": "1b9b85b98bba7eb01222f126573fc578db7120f989214117aaea1d538fb75be9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.587447+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "人物短卷发、眼镜与面部特征延续输入，右侧五类服饰与上身造型的颜色和款式对应，雨靴按一双展示。"
+  }
+}

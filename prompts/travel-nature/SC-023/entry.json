@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-023",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "cd87e69330114660abd5531a0632c2d42789c1bb199869de522021659d7e42bb"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:38:03.860898+00:00",
+    "parameters": {},
+    "prompt_sha256": "b59f679a1cb7406f340b1a4dfe9e0a909059dff8d57ee969b8dae027b68463b6"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.235252+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三枚苔藓孢蒴和前景水滴清楚，焦点与背景散景分离，逆光叶缘可辨。"
+  }
+}

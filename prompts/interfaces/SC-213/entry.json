@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-213",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创界面草图与区块布局",
+      "sha256": "c86ba30074df4bfbdab4e53698f3c19fd092dec5150c12ee305b526cb81993df"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "d61371dbe26f32c0ff3c39f8895b26134d5da2dc1aa9e091b670a950e440b17f"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:53:15.770489+00:00",
+    "parameters": {},
+    "prompt_sha256": "957c67bbaa31967dc3048af6565f01687bbf3993b398bf401cfbdc5d2bf0e1f3"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.581351+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "搜索、三标签、两张图书卡及底部导航的顺序对应草图，按钮和标题文案正确；字体保留了部分手写感，顶部另有枝叶装饰。"
+  }
+}

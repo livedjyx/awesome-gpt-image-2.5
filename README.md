@@ -8,7 +8,7 @@
 
 | 图库案例 | 已配图 | 草稿 | 待制作选题 |
 |---:|---:|---:|---:|
-| 20 | 20 | 0 | 227 |
+| 100 | 100 | 0 | 147 |
 
 已规划 18 个分类、247 个场景。每条正式发布内容提供可复制的完整提示词、对应结果图和实际生成记录；参考图任务另附必要输入。
 
@@ -16,24 +16,24 @@
 
 | 分类 | 规划总数 | 图库案例 |
 |---|---:|---:|
-| [人像与摄影](prompts/portraits/README.md) | 17 | 1 |
-| [生活旅行与自然](prompts/travel-nature/README.md) | 12 | 1 |
-| [商品与食品](prompts/products-food/README.md) | 15 | 1 |
-| [品牌包装与物料](prompts/branding-packaging/README.md) | 13 | 1 |
-| [海报排版与封面](prompts/posters-covers/README.md) | 17 | 2 |
-| [社交卡片与趣味内容](prompts/social-cards/README.md) | 11 | 1 |
-| [知识卡与教学图解](prompts/education/README.md) | 14 | 1 |
-| [数据图表与技术示意](prompts/charts-technical/README.md) | 12 | 1 |
-| [插画与传统绘画](prompts/illustration/README.md) | 21 | 1 |
-| [角色设定与表情](prompts/characters/README.md) | 13 | 1 |
-| [漫画与分镜](prompts/comics-storyboards/README.md) | 11 | 1 |
-| [游戏与资产设计](prompts/game-assets/README.md) | 13 | 1 |
-| [建筑室内与景观](prompts/architecture/README.md) | 12 | 1 |
-| [微缩等距与场景装置](prompts/miniatures/README.md) | 11 | 1 |
-| [材质变形与超现实创意](prompts/materials-surreal/README.md) | 17 | 1 |
-| [界面与屏幕展示](prompts/interfaces/README.md) | 11 | 1 |
-| [服饰造型与穿搭](prompts/fashion/README.md) | 10 | 1 |
-| [图像编辑与修复](prompts/editing-restoration/README.md) | 17 | 2 |
+| [人像与摄影](prompts/portraits/README.md) | 17 | 6 |
+| [生活旅行与自然](prompts/travel-nature/README.md) | 12 | 6 |
+| [商品与食品](prompts/products-food/README.md) | 15 | 6 |
+| [品牌包装与物料](prompts/branding-packaging/README.md) | 13 | 6 |
+| [海报排版与封面](prompts/posters-covers/README.md) | 17 | 6 |
+| [社交卡片与趣味内容](prompts/social-cards/README.md) | 11 | 6 |
+| [知识卡与教学图解](prompts/education/README.md) | 14 | 6 |
+| [数据图表与技术示意](prompts/charts-technical/README.md) | 12 | 6 |
+| [插画与传统绘画](prompts/illustration/README.md) | 21 | 6 |
+| [角色设定与表情](prompts/characters/README.md) | 13 | 6 |
+| [漫画与分镜](prompts/comics-storyboards/README.md) | 11 | 5 |
+| [游戏与资产设计](prompts/game-assets/README.md) | 13 | 5 |
+| [建筑室内与景观](prompts/architecture/README.md) | 12 | 5 |
+| [微缩等距与场景装置](prompts/miniatures/README.md) | 11 | 5 |
+| [材质变形与超现实创意](prompts/materials-surreal/README.md) | 17 | 5 |
+| [界面与屏幕展示](prompts/interfaces/README.md) | 11 | 5 |
+| [服饰造型与穿搭](prompts/fashion/README.md) | 10 | 5 |
+| [图像编辑与修复](prompts/editing-restoration/README.md) | 17 | 5 |
 
 ## 使用方式
 

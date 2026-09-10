@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-091",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "6a9fcf0b5f950cc825ff017b8028a2d74a028775a7353fc366bd2fb614bd23ea"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:46:44.269190+00:00",
+    "parameters": {},
+    "prompt_sha256": "ff99143fa9cdedcf50becd4362971fc3cc219627640bd33bfdc3bc01a70f8f08"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:49:44.911808+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "五个时间与活动按顺序从左到右排列，箭头方向一致；门牌增加「营业中」「今日结束」场景文字，未改变时间线。"
+  }
+}

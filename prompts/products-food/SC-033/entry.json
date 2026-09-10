@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-033",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "1ff97de1bb88c750f82c0c22879e447360eea2344a42031e067ab87cde172548"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:39:01.032045+00:00",
+    "parameters": {},
+    "prompt_sha256": "078d8f250c6797f3852edbf4b654518e730b302f4cfbb6027d22c0460b72a6b1"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.242254+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "一杯气泡水、三块冰、一片杯内青柠与桌面半果对应提示词，水花与杯沿关系自然。"
+  }
+}

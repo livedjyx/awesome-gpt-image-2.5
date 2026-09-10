@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-173",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "a7c4f28800da443d595feaac25f2519c52b8dfeda56847ff04ffb7470894f0f8"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:50:33.317550+00:00",
+    "parameters": {},
+    "prompt_sha256": "aae77f56ee79e0458421451ae2934a4b2a8d2e2eed4073f5d2e506087a1e3afa"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:59:08.150904+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "两层空间、借阅台、书架和阅读桌清楚，中央通过折返梯段及平台联系。该图只作空间概念，楼梯尺寸与结构未作工程校核。"
+  }
+}

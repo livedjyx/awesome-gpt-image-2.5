@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-211",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "6e21544bed655ba9f48c69ebcc0161505fe8c256a93c7189fc3742a5fc2edba5"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:52:08.488459+00:00",
+    "parameters": {},
+    "prompt_sha256": "d238a41c208728c0f1f48ee9c57f3e3718c777a0916525e4da9f17cfb2ea5ec8"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.575998+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三张指标卡和两行记录的数据、单位均对应提示，导航与添加记录按钮文案正确，样例数据标记可读。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-183",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "128bc33cacc18ccff887294b6b3cb6c5ddd875e00669d40f473279e2cee2e302"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:50:42.039394+00:00",
+    "parameters": {},
+    "prompt_sha256": "8e0c736dd6933ef7c4e568cb7a5f1d1d2b0a7c1241e803baa6c85ee39541a9de"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:07:01.134909+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "立体书中三座纸屋、蓝桥、河道和纸风车可辨，折痕与底部连接呈现纸艺结构，书脊文字正确；未做纸工程展开验证。"
+  }
+}

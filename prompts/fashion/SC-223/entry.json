@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-223",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创虚构成年人物身份参考",
+      "sha256": "5900f757e35bfe6f57d8361b2e3dd98f4d9ac326bfe8760b54b72b0f5c4110ee"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "e5a2e1116107657cdded5b28fa2158f617454877a8c55cf34a4f405c1dc6eb43"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:57:25.463711+00:00",
+    "parameters": {},
+    "prompt_sha256": "c9e1b1601528abb4825545f6407abca0f221e820cc69b738ee03fc22b6eb1c83"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.590454+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "三套全身穿搭的人物身份、发型与眼镜一致，橄榄绿、浅蓝和陶土色上装及配套裤鞋对应提示。"
+  }
+}

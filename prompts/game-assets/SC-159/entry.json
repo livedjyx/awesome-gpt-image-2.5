@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-159",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "9c167c5c21a21ed0f8b590614fb67592fffe5c698bcf6095dfdd163cca9b7f48"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:49:24.609952+00:00",
+    "parameters": {},
+    "prompt_sha256": "5e8467a067d9ad08d7d404761c143bc00d80982df5f274bd3cc025f6d49a71dc"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:59:08.131714+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "九种苔原模块按三列三行呈现，菱形顶面投影与厚度接近，各类地貌可辨；未做引擎拼接验证。"
+  }
+}

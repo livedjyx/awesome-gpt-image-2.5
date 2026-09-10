@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-117",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "82e70038e2b51f43819afc07e9291382d8da55132da17a2d3b8e71cb694d517e"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:40.566933+00:00",
+    "parameters": {},
+    "prompt_sha256": "269550784b44240b70dc5f6638aff57e0df286535779790b0b07ffc57acc4b29"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:49:44.920039+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "观鸟亭、单个人物与三只飞鸟对应，纸层边缘与投影清楚，亭柱和屋顶支撑关系可辨。"
+  }
+}

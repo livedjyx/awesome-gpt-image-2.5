@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-224",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "08be50366da259881fb5934ba01334b66731c280b74e92873521f0ddde9c61bc"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:57:54.275150+00:00",
+    "parameters": {},
+    "prompt_sha256": "1b69aca5d4c84df303de345b0e01b8d20afc39ead45cb2abcd8eb6a8abea94fe"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.595540+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "灰蓝人字纹面料、酒红里布、棕色纽扣与扣眼均可辨，近景纤维和缝线清楚，衣领结构自然。"
+  }
+}

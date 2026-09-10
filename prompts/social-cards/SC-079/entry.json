@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-079",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创虚构成年人物身份参考",
+      "sha256": "5900f757e35bfe6f57d8361b2e3dd98f4d9ac326bfe8760b54b72b0f5c4110ee"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "93976ac54422697dc9959b25b037f2bb33a585a5e73d62295786506f6bfe1cc6"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:44:42.080754+00:00",
+    "parameters": {},
+    "prompt_sha256": "84e86b1855413769c3c7008314b2029ad14059e0ba6739ee5b25788f15f79fe7"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:57.985765+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "三张旅行照片完整，人物短卷发、眼镜与面部延续输入，两处指定文字可读；边角少量植物装饰未遮脸。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-022",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "d29aa9ffac7d5507a3fd642d6121ab3f3bf67caddff623e76c14f45d4d0eb00b"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:37:31.916711+00:00",
+    "parameters": {},
+    "prompt_sha256": "122d09d13fc72356c256b9a51bb580053a1e53648c5a36f44892e21265644d1d"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.232175+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "单只蛎鹬在潮滩低头觅食，长喙与双足可辨，羽毛和浅景深符合自然摄影。"
+  }
+}

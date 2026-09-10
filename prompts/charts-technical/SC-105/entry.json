@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-105",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "e491bdcde7a120a07fa17c2578d9846fc31e32e916e49ebf71e18abf1bc43a9a"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:45:17.322405+00:00",
+    "parameters": {},
+    "prompt_sha256": "f6bd4522369a098fef177da871d59a5a4acab7580f0b2133ced85f97de329df9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.016471+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三个传感器分别连向采集器，再连显示面板，五节点、四箭头与指定关系一致。"
+  }
+}

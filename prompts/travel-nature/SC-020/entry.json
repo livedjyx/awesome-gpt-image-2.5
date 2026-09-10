@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-020",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "7373fa2e8af7ea60f90c7e9239b6be29deec319ec4115d796c907f4181dc8a24"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:36:28.245461+00:00",
+    "parameters": {},
+    "prompt_sha256": "67e578260e19bf3dfc6c66333cc09fb2cc6148647c303e1007c784d790bb6f4a"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.223111+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "梯田前景、河谷中景与淡化远山形成空气透视，雾层未遮掉主体结构。"
+  }
+}

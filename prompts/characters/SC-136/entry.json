@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-136",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "ac1523b6f1c24f61585a0ee85cd795fd84971da4fde748e2b0514f40118341e3"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:48:14.489334+00:00",
+    "parameters": {},
+    "prompt_sha256": "703adc67f7333dcb11aea58e6ef19bf1e7f00cf757ba95349f7eceecb3797385"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.100389+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "单只折角小鸟的三角头角、浅蓝折纸翅与橙脚清楚，底座接触阴影合理。"
+  }
+}

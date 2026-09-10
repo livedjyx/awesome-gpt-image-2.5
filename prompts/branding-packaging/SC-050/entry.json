@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-050",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "c0db586d76c1fd0ad42522b05ab331d128b4c43a173023e31f243a89d1b6e62d"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:40:18.086587+00:00",
+    "parameters": {},
+    "prompt_sha256": "3fff173253ce4583b74fd52989b39b0e0c376dda4364349660dd7eac8ca62a12"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.265334+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "两行指定文字清楚，棉纸纤维与叶脉压印可见，只有一张完整名片。"
+  }
+}

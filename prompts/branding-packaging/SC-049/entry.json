@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "SC-049",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待编辑的原创圆筒茶罐",
+      "sha256": "80bde65a073638d6ffabfb8c008670ec3dd0f1adb669e49ed089a746624cc47e"
+    },
+    {
+      "path": "images/input-02.png",
+      "purpose": "原创茶枝印花素材",
+      "sha256": "2960e21ea250b50b9c72fdc3e078ed8cb4d12e91d3c17f9bc9dd5b701a47d60c"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "8968c2a6054772026b9c1a9e5ec817d4411eaced043faa55d846b862e445183d"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:39:52.978475+00:00",
+    "parameters": {},
+    "prompt_sha256": "198e44e8e55ed13c47013f8e11888cbdbcf9c849018ab33c4a46496b1a360786"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.260215+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "茶枝花纹沿罐身弯曲，盖子与金属包边保持素色，产品轮廓、背景和光线延续输入。"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-197",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创浇水壶形状参考",
+      "sha256": "45c8e24d776739a31d3f3a73b5104899490fb06b7da4b21ae66ec6c15a980a5a"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "f19924fa3693b3855245d399e214c033fa826c2fb94add5e693a36a72b4aaa49"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:53:11.575391+00:00",
+    "parameters": {},
+    "prompt_sha256": "0ef080d3ce8ba88624cad41b23a6939d9794db975594fa86763551c46ef38748"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.573122+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "浇水壶轮廓、左侧喷头、拱形提手及加水口清楚，充气织物有接缝和底部压缩，小木凳提供尺度参照。"
+  }
+}

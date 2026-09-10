@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-088",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "58a06e7041c9eb40aa294a3dac76c72f66029cd2e96b384fa8516da437f4ec2d"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:44:26.202143+00:00",
+    "parameters": {},
+    "prompt_sha256": "e6a7012a53fa59533434328f0021614a01934b33551795f9dd11411adc18fe4a"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:57.996617+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三种叶片分裂形态有区别，放大框对应各自主叶区域，文字正确。仅作形态观察示意，不作物种鉴定。"
+  }
+}

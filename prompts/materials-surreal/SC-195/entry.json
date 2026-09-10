@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-195",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创梨形闹钟形状参考",
+      "sha256": "ade927de8438c443c4d38606800c6f12893c9c978c2bc1fa0761ec8ce0b3e1fd"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "9db24f1799861cf8bcf794f09b6cfd4a6134cf0c3893263b049d8e2e4f59772e"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:52:09.146437+00:00",
+    "parameters": {},
+    "prompt_sha256": "0646f881513e8878e385f17b3a9ed075dca955db373937338174c200b9b53c39"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.566735+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "梨形外轮廓、叶片、短梗及底部支撑延续输入，钟面十二刻度和两根指针清楚，时间约为 10:10，针织纹理沿体积变化。"
+  }
+}

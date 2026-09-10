@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-113",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "859021f9fe86bc1610e931066b50cc13e3ffefe3ef34dad995117e95439fb634"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:45:06.216900+00:00",
+    "parameters": {},
+    "prompt_sha256": "e13d238374d18943ee9dbcdf59327717d0d4dde62dce0f7218404cf58b9248cc"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.020470+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "陶罐、钴蓝布和三枚杏子形成静物组，厚涂笔触和侧光明确，接触关系自然。"
+  }
+}

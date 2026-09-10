@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-076",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "32817fb9a7080aef7d19848538634791a324e6175de2a9c01f90b5536be3e80d"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:42:35.926194+00:00",
+    "parameters": {},
+    "prompt_sha256": "7789340eb2baf62683221abf3354c8842ae2110409b894a0ee103fd7075abe81"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.278928+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "左右均为一把剪刀、两支铅笔与一把尺，整理后集中入托盘，标题与说明文字正确。"
+  }
+}

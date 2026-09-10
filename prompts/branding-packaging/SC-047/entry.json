@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-047",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "7b3e348125fd8e30209ff9a6c29b62c37b0920263d591ed78c5549d0636655bf"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:02.756498+00:00",
+    "parameters": {},
+    "prompt_sha256": "9715434cd9e2a04c1396e43dcc7041f32c8e86debed3849d6ea6889a77703321"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:49:44.904158+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "四个种荚标志各含三粒种子，暖白背景完整。右下版使用浅米圆底与实心种子，未完全采用提示词要求的细线稿。"
+  }
+}

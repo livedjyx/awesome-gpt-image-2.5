@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-005",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "9a1e8f4f5cecc415e41492a6884b16ce09854f0e8737c4e01e57448b97031df3"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:32:12.490603+00:00",
+    "parameters": {},
+    "prompt_sha256": "1b0a6f22b481305332bde6a437bee525e9266593d0a6d4abbb2455d32d1c0ded"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.211378+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三位成年人物完整入画，鱼眼使温室框架向四周弯曲，中央面部仍可辨，手部未见明显多肢。"
+  }
+}

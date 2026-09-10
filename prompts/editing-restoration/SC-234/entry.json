@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-234",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待换背景的原创陶瓷杯",
+      "sha256": "2759d52d9a2d6ce0602128318663abaa714b32ed043eb0cd16de84e637ec320c"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "29aa7d618bb11acc05185c5a75480a8f32a4e2bdcd35dcc4513e249beb1d9828"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T10:02:07.662304+00:00",
+    "parameters": {},
+    "prompt_sha256": "bed4015ad99253d71a45409c59f5180eaf231c752260810a5345b3cb448ee3d9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.606056+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "杯身比例、斑点釉、深灰盖与右侧把手保持，暖灰圆展台边缘和接触阴影清楚，背景无额外作品。"
+  }
+}

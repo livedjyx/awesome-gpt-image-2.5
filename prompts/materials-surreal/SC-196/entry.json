@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-196",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创指南针形状参考",
+      "sha256": "6bec51a4f7139ada5d559a712558be04db8f050d6018df32ae25f8c44e14678c"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "243ffc25f71123460b5a977395a3cea44cf7993033203f1cfe544af4a44a6eb2"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:52:41.223919+00:00",
+    "parameters": {},
+    "prompt_sha256": "46a48faacb23da0701ef3c1cb07f9559af143a6b6c09872f51071c516de26211"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.570123+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "圆环、顶部小环、四个白色刻度与红白指针的位置对应输入，红端朝上，材质转为短绒和布贴，缝边完整。"
+  }
+}

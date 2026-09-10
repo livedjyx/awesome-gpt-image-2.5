@@ -11,6 +11,61 @@
     "model": null
   },
   {
+    "id": "SC-002",
+    "title": "直闪日常抓拍",
+    "category": "C01",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/portraits/SC-002/README.md",
+    "preview": "prompts/portraits/SC-002/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-003",
+    "title": "颗粒胶片情绪肖像",
+    "category": "C01",
+    "mode": "G",
+    "style": "模拟胶片摄影",
+    "page": "prompts/portraits/SC-003/README.md",
+    "preview": "prompts/portraits/SC-003/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-004",
+    "title": "黑白硬光肖像",
+    "category": "C01",
+    "mode": "G",
+    "style": "黑白摄影",
+    "page": "prompts/portraits/SC-004/README.md",
+    "preview": "prompts/portraits/SC-004/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-005",
+    "title": "鱼眼近距合影",
+    "category": "C01",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/portraits/SC-005/README.md",
+    "preview": "prompts/portraits/SC-005/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-006",
+    "title": "双重曝光肖像",
+    "category": "C01",
+    "mode": "G",
+    "style": "超现实摄影",
+    "page": "prompts/portraits/SC-006/README.md",
+    "preview": "prompts/portraits/SC-006/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-018",
     "title": "雨后街角纪实",
     "category": "C02",
@@ -18,6 +73,61 @@
     "style": "自然写实摄影",
     "page": "prompts/travel-nature/SC-018/README.md",
     "preview": "prompts/travel-nature/SC-018/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-019",
+    "title": "夜间长曝光街景",
+    "category": "C02",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/travel-nature/SC-019/README.md",
+    "preview": "prompts/travel-nature/SC-019/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-020",
+    "title": "自然风景空气透视",
+    "category": "C02",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/travel-nature/SC-020/README.md",
+    "preview": "prompts/travel-nature/SC-020/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-021",
+    "title": "水面镜像风景",
+    "category": "C02",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/travel-nature/SC-021/README.md",
+    "preview": "prompts/travel-nature/SC-021/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-022",
+    "title": "动物自然瞬间",
+    "category": "C02",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/travel-nature/SC-022/README.md",
+    "preview": "prompts/travel-nature/SC-022/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-023",
+    "title": "植物微距观察",
+    "category": "C02",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/travel-nature/SC-023/README.md",
+    "preview": "prompts/travel-nature/SC-023/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -33,6 +143,61 @@
     "model": null
   },
   {
+    "id": "SC-031",
+    "title": "产品悬浮陈列",
+    "category": "C03",
+    "mode": "G",
+    "style": "商业棚拍",
+    "page": "prompts/products-food/SC-031/README.md",
+    "preview": "prompts/products-food/SC-031/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-032",
+    "title": "食材分层爆炸图",
+    "category": "C03",
+    "mode": "G",
+    "style": "商业棚拍",
+    "page": "prompts/products-food/SC-032/README.md",
+    "preview": "prompts/products-food/SC-032/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-033",
+    "title": "饮料飞溅广告",
+    "category": "C03",
+    "mode": "G",
+    "style": "商业棚拍",
+    "page": "prompts/products-food/SC-033/README.md",
+    "preview": "prompts/products-food/SC-033/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-034",
+    "title": "单品多色陈列",
+    "category": "C03",
+    "mode": "R",
+    "style": "商业棚拍",
+    "page": "prompts/products-food/SC-034/README.md",
+    "preview": "prompts/products-food/SC-034/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-035",
+    "title": "俯拍整齐排物",
+    "category": "C03",
+    "mode": "G",
+    "style": "商业棚拍",
+    "page": "prompts/products-food/SC-035/README.md",
+    "preview": "prompts/products-food/SC-035/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-045",
     "title": "品牌视觉应用板",
     "category": "C04",
@@ -40,6 +205,61 @@
     "style": "瑞士网格排版",
     "page": "prompts/branding-packaging/SC-045/README.md",
     "preview": "prompts/branding-packaging/SC-045/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-046",
+    "title": "短字标识设计",
+    "category": "C04",
+    "mode": "G",
+    "style": "扁平矢量插画",
+    "page": "prompts/branding-packaging/SC-046/README.md",
+    "preview": "prompts/branding-packaging/SC-046/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-047",
+    "title": "图形标志延展",
+    "category": "C04",
+    "mode": "G",
+    "style": "几何抽象",
+    "page": "prompts/branding-packaging/SC-047/README.md",
+    "preview": "prompts/branding-packaging/SC-047/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-048",
+    "title": "包装展开转立体",
+    "category": "C04",
+    "mode": "R",
+    "style": "商业棚拍",
+    "page": "prompts/branding-packaging/SC-048/README.md",
+    "preview": "prompts/branding-packaging/SC-048/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-049",
+    "title": "包装与物件图案贴合",
+    "category": "C04",
+    "mode": "E",
+    "style": "商业棚拍",
+    "page": "prompts/branding-packaging/SC-049/README.md",
+    "preview": "prompts/branding-packaging/SC-049/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-050",
+    "title": "名片印刷工艺预览",
+    "category": "C04",
+    "mode": "G",
+    "style": "商业棚拍",
+    "page": "prompts/branding-packaging/SC-050/README.md",
+    "preview": "prompts/branding-packaging/SC-050/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -66,6 +286,50 @@
     "model": null
   },
   {
+    "id": "SC-060",
+    "title": "复古限色印刷海报",
+    "category": "C05",
+    "mode": "G",
+    "style": "复古印刷",
+    "page": "prompts/posters-covers/SC-060/README.md",
+    "preview": "prompts/posters-covers/SC-060/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-061",
+    "title": "剪影叙事海报",
+    "category": "C05",
+    "mode": "G",
+    "style": "平面剪影",
+    "page": "prompts/posters-covers/SC-061/README.md",
+    "preview": "prompts/posters-covers/SC-061/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-062",
+    "title": "杂志封面层级",
+    "category": "C05",
+    "mode": "G",
+    "style": "时装编辑摄影",
+    "page": "prompts/posters-covers/SC-062/README.md",
+    "preview": "prompts/posters-covers/SC-062/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-063",
+    "title": "大字与实物融合",
+    "category": "C05",
+    "mode": "G",
+    "style": "超现实摄影",
+    "page": "prompts/posters-covers/SC-063/README.md",
+    "preview": "prompts/posters-covers/SC-063/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-075",
     "title": "短句人物卡片",
     "category": "C06",
@@ -73,6 +337,61 @@
     "style": "扁平矢量插画",
     "page": "prompts/social-cards/SC-075/README.md",
     "preview": "prompts/social-cards/SC-075/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-076",
+    "title": "知识对照卡片",
+    "category": "C06",
+    "mode": "G",
+    "style": "瑞士网格排版",
+    "page": "prompts/social-cards/SC-076/README.md",
+    "preview": "prompts/social-cards/SC-076/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-077",
+    "title": "多页社交内容预览",
+    "category": "C06",
+    "mode": "G",
+    "style": "扁平矢量插画",
+    "page": "prompts/social-cards/SC-077/README.md",
+    "preview": "prompts/social-cards/SC-077/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-078",
+    "title": "虚构动态消息板",
+    "category": "C06",
+    "mode": "G",
+    "style": "简洁界面",
+    "page": "prompts/social-cards/SC-078/README.md",
+    "preview": "prompts/social-cards/SC-078/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-079",
+    "title": "复古照片拼贴卡",
+    "category": "C06",
+    "mode": "R",
+    "style": "拼贴手账",
+    "page": "prompts/social-cards/SC-079/README.md",
+    "preview": "prompts/social-cards/SC-079/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-080",
+    "title": "宠物拟人对话",
+    "category": "C06",
+    "mode": "G",
+    "style": "风格化三维",
+    "page": "prompts/social-cards/SC-080/README.md",
+    "preview": "prompts/social-cards/SC-080/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -88,6 +407,61 @@
     "model": null
   },
   {
+    "id": "SC-087",
+    "title": "物件词汇卡",
+    "category": "C07",
+    "mode": "G",
+    "style": "扁平矢量插画",
+    "page": "prompts/education/SC-087/README.md",
+    "preview": "prompts/education/SC-087/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-088",
+    "title": "自然观察图鉴",
+    "category": "C07",
+    "mode": "G",
+    "style": "水彩",
+    "page": "prompts/education/SC-088/README.md",
+    "preview": "prompts/education/SC-088/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-089",
+    "title": "学习笔记可视化",
+    "category": "C07",
+    "mode": "G",
+    "style": "手绘线稿",
+    "page": "prompts/education/SC-089/README.md",
+    "preview": "prompts/education/SC-089/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-090",
+    "title": "路线与游览地图",
+    "category": "C07",
+    "mode": "G",
+    "style": "细节叙事插画",
+    "page": "prompts/education/SC-090/README.md",
+    "preview": "prompts/education/SC-090/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-091",
+    "title": "时间线知识卡",
+    "category": "C07",
+    "mode": "G",
+    "style": "复古印刷",
+    "page": "prompts/education/SC-091/README.md",
+    "preview": "prompts/education/SC-091/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-100",
     "title": "设备爆炸分解图",
     "category": "C08",
@@ -95,6 +469,61 @@
     "style": "技术线描",
     "page": "prompts/charts-technical/SC-100/README.md",
     "preview": "prompts/charts-technical/SC-100/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-101",
+    "title": "分层剖面结构图",
+    "category": "C08",
+    "mode": "G",
+    "style": "技术线描",
+    "page": "prompts/charts-technical/SC-101/README.md",
+    "preview": "prompts/charts-technical/SC-101/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-102",
+    "title": "给定数据柱形图",
+    "category": "C08",
+    "mode": "G",
+    "style": "科学示意",
+    "page": "prompts/charts-technical/SC-102/README.md",
+    "preview": "prompts/charts-technical/SC-102/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-103",
+    "title": "流程与决策图",
+    "category": "C08",
+    "mode": "G",
+    "style": "科学示意",
+    "page": "prompts/charts-technical/SC-103/README.md",
+    "preview": "prompts/charts-technical/SC-103/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-104",
+    "title": "关系网络示意",
+    "category": "C08",
+    "mode": "G",
+    "style": "科学示意",
+    "page": "prompts/charts-technical/SC-104/README.md",
+    "preview": "prompts/charts-technical/SC-104/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-105",
+    "title": "系统架构示意",
+    "category": "C08",
+    "mode": "G",
+    "style": "技术线描",
+    "page": "prompts/charts-technical/SC-105/README.md",
+    "preview": "prompts/charts-technical/SC-105/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -110,6 +539,61 @@
     "model": null
   },
   {
+    "id": "SC-113",
+    "title": "厚涂油画静物",
+    "category": "C09",
+    "mode": "G",
+    "style": "厚涂油画",
+    "page": "prompts/illustration/SC-113/README.md",
+    "preview": "prompts/illustration/SC-113/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-114",
+    "title": "留白水墨山水",
+    "category": "C09",
+    "mode": "G",
+    "style": "水墨",
+    "page": "prompts/illustration/SC-114/README.md",
+    "preview": "prompts/illustration/SC-114/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-115",
+    "title": "工笔动植物",
+    "category": "C09",
+    "mode": "G",
+    "style": "工笔重彩",
+    "page": "prompts/illustration/SC-115/README.md",
+    "preview": "prompts/illustration/SC-115/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-116",
+    "title": "木版限色风景",
+    "category": "C09",
+    "mode": "G",
+    "style": "木版画",
+    "page": "prompts/illustration/SC-116/README.md",
+    "preview": "prompts/illustration/SC-116/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-117",
+    "title": "层叠剪纸场景",
+    "category": "C09",
+    "mode": "G",
+    "style": "剪纸",
+    "page": "prompts/illustration/SC-117/README.md",
+    "preview": "prompts/illustration/SC-117/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-133",
     "title": "角色多视图设定",
     "category": "C10",
@@ -117,6 +601,61 @@
     "style": "动漫赛璐璐",
     "page": "prompts/characters/SC-133/README.md",
     "preview": "prompts/characters/SC-133/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-134",
+    "title": "角色表情与贴纸套组",
+    "category": "C10",
+    "mode": "R",
+    "style": "动漫赛璐璐",
+    "page": "prompts/characters/SC-134/README.md",
+    "preview": "prompts/characters/SC-134/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-135",
+    "title": "角色服装拆解页",
+    "category": "C10",
+    "mode": "G",
+    "style": "动漫赛璐璐",
+    "page": "prompts/characters/SC-135/README.md",
+    "preview": "prompts/characters/SC-135/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-136",
+    "title": "三维吉祥物设定",
+    "category": "C10",
+    "mode": "G",
+    "style": "风格化三维",
+    "page": "prompts/characters/SC-136/README.md",
+    "preview": "prompts/characters/SC-136/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-137",
+    "title": "动作姿态图集",
+    "category": "C10",
+    "mode": "R",
+    "style": "动漫赛璐璐",
+    "page": "prompts/characters/SC-137/README.md",
+    "preview": "prompts/characters/SC-137/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-138",
+    "title": "角色成长阶段设计",
+    "category": "C10",
+    "mode": "G",
+    "style": "动漫赛璐璐",
+    "page": "prompts/characters/SC-138/README.md",
+    "preview": "prompts/characters/SC-138/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -132,6 +671,50 @@
     "model": null
   },
   {
+    "id": "SC-147",
+    "title": "电影镜头分镜板",
+    "category": "C11",
+    "mode": "G",
+    "style": "电影感摄影",
+    "page": "prompts/comics-storyboards/SC-147/README.md",
+    "preview": "prompts/comics-storyboards/SC-147/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-148",
+    "title": "无对白叙事漫画",
+    "category": "C11",
+    "mode": "G",
+    "style": "细节叙事插画",
+    "page": "prompts/comics-storyboards/SC-148/README.md",
+    "preview": "prompts/comics-storyboards/SC-148/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-149",
+    "title": "角色参考短篇漫画",
+    "category": "C11",
+    "mode": "R",
+    "style": "动漫赛璐璐",
+    "page": "prompts/comics-storyboards/SC-149/README.md",
+    "preview": "prompts/comics-storyboards/SC-149/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-150",
+    "title": "平行时间对照分镜",
+    "category": "C11",
+    "mode": "G",
+    "style": "电影感摄影",
+    "page": "prompts/comics-storyboards/SC-150/README.md",
+    "preview": "prompts/comics-storyboards/SC-150/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-157",
     "title": "像素道具图集",
     "category": "C12",
@@ -139,6 +722,50 @@
     "style": "像素画",
     "page": "prompts/game-assets/SC-157/README.md",
     "preview": "prompts/game-assets/SC-157/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-158",
+    "title": "角色动作精灵图",
+    "category": "C12",
+    "mode": "R",
+    "style": "像素画",
+    "page": "prompts/game-assets/SC-158/README.md",
+    "preview": "prompts/game-assets/SC-158/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-159",
+    "title": "等距地形模块",
+    "category": "C12",
+    "mode": "G",
+    "style": "等距三维",
+    "page": "prompts/game-assets/SC-159/README.md",
+    "preview": "prompts/game-assets/SC-159/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-160",
+    "title": "低多边形物件组",
+    "category": "C12",
+    "mode": "G",
+    "style": "低多边形",
+    "page": "prompts/game-assets/SC-160/README.md",
+    "preview": "prompts/game-assets/SC-160/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-161",
+    "title": "游戏物品说明卡",
+    "category": "C12",
+    "mode": "G",
+    "style": "动漫赛璐璐",
+    "page": "prompts/game-assets/SC-161/README.md",
+    "preview": "prompts/game-assets/SC-161/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -154,6 +781,50 @@
     "model": null
   },
   {
+    "id": "SC-171",
+    "title": "建筑立面概念",
+    "category": "C13",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/architecture/SC-171/README.md",
+    "preview": "prompts/architecture/SC-171/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-172",
+    "title": "室内软装替换",
+    "category": "C13",
+    "mode": "E",
+    "style": "自然写实摄影",
+    "page": "prompts/architecture/SC-172/README.md",
+    "preview": "prompts/architecture/SC-172/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-173",
+    "title": "建筑剖透视",
+    "category": "C13",
+    "mode": "G",
+    "style": "技术线描",
+    "page": "prompts/architecture/SC-173/README.md",
+    "preview": "prompts/architecture/SC-173/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-174",
+    "title": "庭院景观设计",
+    "category": "C13",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/architecture/SC-174/README.md",
+    "preview": "prompts/architecture/SC-174/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-182",
     "title": "等距微缩房间",
     "category": "C14",
@@ -161,6 +832,50 @@
     "style": "等距三维",
     "page": "prompts/miniatures/SC-182/README.md",
     "preview": "prompts/miniatures/SC-182/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-183",
+    "title": "书页立体纸雕",
+    "category": "C14",
+    "mode": "G",
+    "style": "剪纸",
+    "page": "prompts/miniatures/SC-183/README.md",
+    "preview": "prompts/miniatures/SC-183/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-184",
+    "title": "透明球内场景",
+    "category": "C14",
+    "mode": "G",
+    "style": "微缩摄影",
+    "page": "prompts/miniatures/SC-184/README.md",
+    "preview": "prompts/miniatures/SC-184/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-185",
+    "title": "盒装场景模型",
+    "category": "C14",
+    "mode": "G",
+    "style": "微缩摄影",
+    "page": "prompts/miniatures/SC-185/README.md",
+    "preview": "prompts/miniatures/SC-185/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-186",
+    "title": "键帽微型景观",
+    "category": "C14",
+    "mode": "G",
+    "style": "微缩摄影",
+    "page": "prompts/miniatures/SC-186/README.md",
+    "preview": "prompts/miniatures/SC-186/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -176,6 +891,50 @@
     "model": null
   },
   {
+    "id": "SC-194",
+    "title": "金属镀层重塑",
+    "category": "C15",
+    "mode": "E",
+    "style": "金属三维",
+    "page": "prompts/materials-surreal/SC-194/README.md",
+    "preview": "prompts/materials-surreal/SC-194/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-195",
+    "title": "针织软雕塑",
+    "category": "C15",
+    "mode": "R",
+    "style": "针织",
+    "page": "prompts/materials-surreal/SC-195/README.md",
+    "preview": "prompts/materials-surreal/SC-195/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-196",
+    "title": "毛绒物件转化",
+    "category": "C15",
+    "mode": "R",
+    "style": "毛绒",
+    "page": "prompts/materials-surreal/SC-196/README.md",
+    "preview": "prompts/materials-surreal/SC-196/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-197",
+    "title": "充气物件转化",
+    "category": "C15",
+    "mode": "R",
+    "style": "充气塑料",
+    "page": "prompts/materials-surreal/SC-197/README.md",
+    "preview": "prompts/materials-surreal/SC-197/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-210",
     "title": "移动应用首页",
     "category": "C16",
@@ -187,6 +946,50 @@
     "model": null
   },
   {
+    "id": "SC-211",
+    "title": "桌面工作面板",
+    "category": "C16",
+    "mode": "G",
+    "style": "简洁界面",
+    "page": "prompts/interfaces/SC-211/README.md",
+    "preview": "prompts/interfaces/SC-211/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-212",
+    "title": "应用组件样式板",
+    "category": "C16",
+    "mode": "G",
+    "style": "简洁界面",
+    "page": "prompts/interfaces/SC-212/README.md",
+    "preview": "prompts/interfaces/SC-212/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-213",
+    "title": "草图转界面概念",
+    "category": "C16",
+    "mode": "R",
+    "style": "简洁界面",
+    "page": "prompts/interfaces/SC-213/README.md",
+    "preview": "prompts/interfaces/SC-213/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-214",
+    "title": "实体屏幕拍摄",
+    "category": "C16",
+    "mode": "G",
+    "style": "自然写实摄影",
+    "page": "prompts/interfaces/SC-214/README.md",
+    "preview": "prompts/interfaces/SC-214/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
     "id": "SC-221",
     "title": "服装试穿合成",
     "category": "C17",
@@ -194,6 +997,50 @@
     "style": "时装编辑摄影",
     "page": "prompts/fashion/SC-221/README.md",
     "preview": "prompts/fashion/SC-221/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-222",
+    "title": "穿搭平铺与上身",
+    "category": "C17",
+    "mode": "R",
+    "style": "时装编辑摄影",
+    "page": "prompts/fashion/SC-222/README.md",
+    "preview": "prompts/fashion/SC-222/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-223",
+    "title": "多套服装造型页",
+    "category": "C17",
+    "mode": "R",
+    "style": "时装编辑摄影",
+    "page": "prompts/fashion/SC-223/README.md",
+    "preview": "prompts/fashion/SC-223/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-224",
+    "title": "服装材质细节",
+    "category": "C17",
+    "mode": "G",
+    "style": "时装编辑摄影",
+    "page": "prompts/fashion/SC-224/README.md",
+    "preview": "prompts/fashion/SC-224/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-225",
+    "title": "时装编辑场景",
+    "category": "C17",
+    "mode": "G",
+    "style": "时装编辑摄影",
+    "page": "prompts/fashion/SC-225/README.md",
+    "preview": "prompts/fashion/SC-225/images/result-01.png",
     "status": "generated",
     "model": null
   },
@@ -216,6 +1063,39 @@
     "style": "保持输入风格",
     "page": "prompts/editing-restoration/SC-232/README.md",
     "preview": "prompts/editing-restoration/SC-232/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-233",
+    "title": "局部背景清理",
+    "category": "C18",
+    "mode": "E",
+    "style": "保持输入风格",
+    "page": "prompts/editing-restoration/SC-233/README.md",
+    "preview": "prompts/editing-restoration/SC-233/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-234",
+    "title": "背景替换合成",
+    "category": "C18",
+    "mode": "E",
+    "style": "保持输入风格",
+    "page": "prompts/editing-restoration/SC-234/README.md",
+    "preview": "prompts/editing-restoration/SC-234/images/result-01.png",
+    "status": "generated",
+    "model": null
+  },
+  {
+    "id": "SC-235",
+    "title": "黑白照片上色",
+    "category": "C18",
+    "mode": "E",
+    "style": "自然写实摄影",
+    "page": "prompts/editing-restoration/SC-235/README.md",
+    "preview": "prompts/editing-restoration/SC-235/images/result-01.png",
     "status": "generated",
     "model": null
   }

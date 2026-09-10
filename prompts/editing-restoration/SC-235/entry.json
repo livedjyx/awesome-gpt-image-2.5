@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-235",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "待上色的原创黑白人物照片",
+      "sha256": "a68301d10912afe83a3a71a68639e5247cb3e6cd61e6284061ad8d55209ae46e"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "619116b16c05dbe5664a6fa101e713149b72f7e5c0d1aa62ebb7906c51bd8104"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T10:03:26.815986+00:00",
+    "parameters": {},
+    "prompt_sha256": "2957f53d39c9bb6d589260c52bd19af51ad9ee9240d57b84748d42f0d35c8bfb"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.609103+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "pass"
+    },
+    "notes": "上色后人物身份、姿势、钟表及工具位置保持，米白衣料、棕色工作围挡与暖木桌对应要求；面部暗部略提亮，主要侧光关系仍在，颜色为创作性推定。"
+  }
+}

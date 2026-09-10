@@ -2,6 +2,7 @@
 import copy
 import importlib.util
 import json
+import re
 from pathlib import Path
 import shutil
 import tempfile
@@ -208,6 +209,35 @@ class CatalogTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Generated files are stale'):
             catalog.build_or_check(self.root, 'check')
         self.assertEqual(readme.read_text(encoding='utf-8'), 'Stale manual count: 999')
+
+    def test_gallery_pagination_preserves_each_case_and_navigation(self):
+        for count, expected_pages in [(0, 1), (20, 1), (21, 2), (100, 5)]:
+            with self.subTest(count=count):
+                records = [dict(id=f'SC-{n:03d}', title=f'Case {n}', page=f'prompts/case-{n}/README.md',
+                                preview=f'prompts/case-{n}/images/result-01.png') for n in range(1, count + 1)]
+                pages = catalog.render_gallery(records)
+                self.assertEqual(len(pages), expected_pages)
+                seen = []
+                for path, content in pages.items():
+                    ids = re.findall(r'^## \[(SC-\d+)', content, re.M)
+                    self.assertLessEqual(len(ids), 20)
+                    seen.extend(ids)
+                    for destination in re.findall(r'\]\((gallery[^)]*\.md)\)', content):
+                        self.assertIn(f'docs/{destination}', pages)
+                self.assertEqual(seen, [record['id'] for record in records])
+
+    def test_gallery_shrink_removes_only_surplus_generated_pages(self):
+        catalog.build_or_check(self.root, 'build')
+        obsolete = self.root / 'docs/gallery-2.md'
+        unrelated = self.root / 'docs/gallery-notes.md'
+        obsolete.write_text('Old gallery page', encoding='utf-8')
+        unrelated.write_text('Manual notes', encoding='utf-8')
+        with self.assertRaisesRegex(ValueError, 'stale'):
+            catalog.build_or_check(self.root, 'check')
+        self.assertTrue(obsolete.exists())
+        catalog.build_or_check(self.root, 'build')
+        self.assertFalse(obsolete.exists())
+        self.assertEqual(unrelated.read_text(encoding='utf-8'), 'Manual notes')
 
 
 if __name__ == '__main__':

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-060",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "7ab680675ef014dff0644f9ff7ff3f430cc62abe011c4eb729ad0d3f173b5850"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:40:53.605716+00:00",
+    "parameters": {},
+    "prompt_sha256": "6962b9b2198c1f62db933e3a7e71b84dd16cfc1fd03184cb4c86018c51c04717"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.269346+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "标题、展名和日期正确，砖红与深蓝套色形成复古印刷质感，邮车和山路构图清楚。"
+  }
+}

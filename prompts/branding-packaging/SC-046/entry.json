@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-046",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "b450a468e15c5a451c4ace3883a0b9f39fc9e1f999b2dcc2031ec85d42dae93a"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:39:49.691586+00:00",
+    "parameters": {},
+    "prompt_sha256": "47e965a23daab99e9a589ed97c76f733038bb9f6503793e23a3b9af86c386562"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.254215+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "「沿途」字形可读，深绿色几何笔画与走之底道路延伸符合标识构思。"
+  }
+}

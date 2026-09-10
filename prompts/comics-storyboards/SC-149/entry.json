@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "id": "SC-149",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创浣熊信使角色参考",
+      "sha256": "e6c0e85434bec78e7f2ce90aa9256618bd2a9b24990d0de499445d7817d96df5"
+    },
+    {
+      "path": "images/input-02.png",
+      "purpose": "原创成年邮递员角色参考",
+      "sha256": "2443de8a5edd79531172decd5fe6c3d625c41623693a318a338e56917a3aba54"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "62199e4da0e90fbf4325bcfa8c8422c8fc3d04d470e5379122e41896acbabf2a"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:50:31.475051+00:00",
+    "parameters": {},
+    "prompt_sha256": "333008f30c3b5267fa59d12a19d262f05e957eacf5f92c752bedeaf71f52c264"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:07:01.125368+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "三格中浣熊邮差与红衣收件人的外观连续，包裹由拿错到交换再到确认的顺序清楚，两句对白正确；交换时包裹悬在柜台上方，未完全按提示落在台面。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-135",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "01a3b48f73cadd569762c0fbdc764cbc888d6b1099b2eae2acb2394752de2bba"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:48.792400+00:00",
+    "parameters": {},
+    "prompt_sha256": "67a00f399d53da0f94d58212fa539e5acf6050e9c5d556f73bc2c80d86e47a38"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.096394+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三件装备放大图与角色身上位置对应，连接线清楚；生成结果另补了一幅背面视图，可辅助查看卷图筒绑带。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-031",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "919e4e8d2249e0b4feafe0ba21c9b3c9d07e3542e2a4293be58994024fa26b5f"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:38:04.961069+00:00",
+    "parameters": {},
+    "prompt_sha256": "2b595a1832e2f41695edef7c03d852531b25fbb82ddf2d23f8b842ac388e167e"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.239250+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "一台磨豆机及刷子、量勺、布袋三件配件悬浮分开，金属与木材质感明确。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-212",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "a24b331d80c1437a966979ae6893b6acde285ee468ee0b754abdcce6cacf6fe4"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:52:30.958044+00:00",
+    "parameters": {},
+    "prompt_sha256": "87bbc2a4ee3a172e9353ac9676cdc36a9427148edac764a5398fd804827d3e2b"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.578351+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "保存与取消按钮、两张任务卡、主题输入框和已完成标签齐全，未选与已选状态区分明确，指定文字正确。"
+  }
+}

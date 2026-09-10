@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-184",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "dcb217e14b7153802afc3c2460df6013ebe5a91370dd9b56e474bb2a4f48b993"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:51:19.280231+00:00",
+    "parameters": {},
+    "prompt_sha256": "59d952969d35a0f2c20b14e5d17ca47394ee33ffab86cf67c1b564a28fdce4cd"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:07:01.138910+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "玻璃球完整置于木底座，屋顶温室、植物、步道和栏杆位于球内，曲面反光未遮挡主要结构。"
+  }
+}

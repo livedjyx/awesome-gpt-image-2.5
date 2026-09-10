@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-115",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "dd87288bdaaeb46fb582d46b5d900ba81f49028a63b15bb487e8d7071159f386"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:46:17.020815+00:00",
+    "parameters": {},
+    "prompt_sha256": "918a97a3ce2f261700a483da77fc55ca9a3d22f8f043afd3af633b30966176b5"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.026551+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "两枚石榴与单只雀鸟数量正确，勾线和绢本层染清楚，鸟足落在连续枝条上。"
+  }
+}

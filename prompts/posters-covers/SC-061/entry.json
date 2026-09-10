@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-061",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "a5b62e47d3b6b98fbcddc6fcfcb51d3947aca2ce0331fba479c95662a8f88cfe"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:41:39.563004+00:00",
+    "parameters": {},
+    "prompt_sha256": "bb43986e4a833c2f686e6b2789018b46de853f8f22a11232054b4701a214cbc3"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.272350+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "信封外轮廓包含海岸邮局场景，单个人物与主文案可读。屋檐另有「邮局」小标牌，属于生成时增加的场景细节。"
+  }
+}

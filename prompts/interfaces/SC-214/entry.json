@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-214",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "49afbbd0e606477d17b9b9d5f616617c366487296d5b07032c2fb54cbdc044d7"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:53:43.285080+00:00",
+    "parameters": {},
+    "prompt_sha256": "172562f640087b2acb8d7e7f976e0865f622729a4a065257557adcd629a458c0"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.584448+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "笔记本屏幕上的标题与三行文字清楚，左侧台灯和右侧闭合笔记本位置正确，暖光与深蓝屏幕形成夜间场景。"
+  }
+}

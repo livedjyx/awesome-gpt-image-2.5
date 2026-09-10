@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-002",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "363241aa31ffc59e513a98b6c1dda7268b584a7b01235674c46ee8f0218886f2"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:30:01.479406+00:00",
+    "parameters": {},
+    "prompt_sha256": "5383e1256b1a6d04e7fa21b6715950b47142283c0a61556ea07b73e671e0f0a5"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.196036+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "两位成年人物和两本书数量正确，正面闪光、背景压暗及纸箱质感清楚。背景出现未指定的英文小告示，不影响直闪主体；复用时可进一步约束背景文字。"
+  }
+}

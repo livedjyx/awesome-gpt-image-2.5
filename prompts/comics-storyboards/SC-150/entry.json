@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-150",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "e99f7714f807000d9590dda0beddbab36e103990f18759e457a1b2862e396fa8"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:51:06.288688+00:00",
+    "parameters": {},
+    "prompt_sha256": "854be92442b5dfa0aa1004a316f12ef8c50eb671454ada16f6ec048e6faa9730"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:07:01.129834+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "上下两幅保留拱形舞台、四扇窗和两处门的位置，改造前后的座椅、墙面及幕布变化可辨，两处标题正确。"
+  }
+}

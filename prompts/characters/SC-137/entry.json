@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-137",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创成年邮递员角色参考",
+      "sha256": "2443de8a5edd79531172decd5fe6c3d625c41623693a318a338e56917a3aba54"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "4181082a7fd875a4cfaad4d785052ef5fa485b933cbba980d44a30b290f8a8c8"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:49:02.742828+00:00",
+    "parameters": {},
+    "prompt_sha256": "4b0247b2f864862b872d2dcd5be6f10a950a16750f78fef71672a3aa59c0c74f"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.103868+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "六个动作依次为读信、快走、捡信、递信、敲门、休息，发型与衣服保持一致；休息格增加了台阶作为支撑。"
+  }
+}

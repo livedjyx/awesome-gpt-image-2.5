@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-090",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "0ba0627994db9db8808a302112e48958b2956beadb5d85c5d27cee90c8db2efc"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:45:55.549378+00:00",
+    "parameters": {},
+    "prompt_sha256": "f6f2ff4651b8b0524a553f90344658f2154167ebc6095af88eed6d72130c7ffa"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.003730+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "五站名称、顺序和图例可读，各站位于同一河岸。路线在温室附近有局部遮挡，浏览时仍可循左右段辨认方向。"
+  }
+}

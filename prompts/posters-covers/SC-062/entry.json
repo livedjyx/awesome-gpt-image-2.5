@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-062",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "c94f14e77b6e26ddd33748ee422a6313995a8fcf1b983d29ea0f4b19b9925857"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:48.036708+00:00",
+    "parameters": {},
+    "prompt_sha256": "5c09d1ea40d75f344f514639b2ea85804485fa80a1db15363852d53e07395482"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:49:44.907594+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "重做后仅保留指定五项文案，文字可读且不遮脸，工作室人物与陶碗摄影结构清楚。"
+  }
+}

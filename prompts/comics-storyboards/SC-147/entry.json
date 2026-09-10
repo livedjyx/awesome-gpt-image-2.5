@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-147",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "bce3b587e66f47ad9bf36ee5a3e256dda7b6a74008751645a32e510bb786ebe6"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:55.042437+00:00",
+    "parameters": {},
+    "prompt_sha256": "31c339b5cef8af7beb717d5e329689be81f41b9fc1fba52d0a4e75727dce77a9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.110542+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "六格依次完成发现、靠近、捞起、放置与打开信箱，人物雨衣、手电和红色木箱连续，夜景光色一致。"
+  }
+}

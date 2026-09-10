@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 MODES = {'G': '直接生图', 'R': '参考图引导生成', 'E': '编辑现有图片'}
 STATES = {'planned': '规划中', 'draft': '草稿', 'generated': '已配图', 'verified': '已验证'}
 PHASES = {'pilot': '试制', 'first100': '首批补充', 'expansion': '扩展'}
+GALLERY_PAGE_SIZE = 20
 
 
 def read_json(path):
@@ -197,7 +198,11 @@ def render(root, categories, items, entries):
         '## 图库', '']
     if showcase:
         homepage += ['[浏览全部配图](docs/gallery.md) · [查看试制清单](docs/pilot.md)。机器可读索引见 [gallery.json](data/gallery.json)。', '']
-        for item in showcase[:4]:
+        featured_by_category = {}
+        for item in showcase:
+            featured_by_category.setdefault(item['category'], item)
+        featured = list(featured_by_category.values())[:4]
+        for item in featured:
             base_rel = f"prompts/{by_category[item['category']]['slug']}/{item['id']}"
             preview = entries[item['id']]['result']['path']
             homepage += [f"### [{item['title']}]({base_rel}/README.md)", '',
@@ -238,12 +243,7 @@ def render(root, categories, items, entries):
                 'style': item['style'], 'page': f'{base_rel}/README.md', 'preview': f"{base_rel}/{entry['result']['path']}",
                 'status': entry['status'], 'model': entry['generation']['model']})
     output['data/gallery.json'] = json.dumps(gallery, ensure_ascii=False, indent=2) + '\n'
-    gallery_page = ['# 配图浏览', '', '[返回首页](../README.md) · [试制清单](pilot.md)', '',
-                    f'共 {len(gallery)} 个案例。点击标题查看完整提示词、输入素材和对应结果。', '']
-    for item in gallery:
-        gallery_page += [f"## [{item['id']} · {item['title']}](../{item['page']})", '',
-                         f'<a href="../{item["page"]}"><img src="../{item["preview"]}" alt="{cell(item["title"])}" width="480"></a>', '']
-    output['docs/gallery.md'] = '\n'.join(gallery_page)
+    output.update(render_gallery(gallery))
     pilot = ['# 试制选题', '', '20 个试制选题覆盖全部分类，另外检查中英排版和画面扩展。制作状态自动同步，试制条目计入首批 100 条。', '',
         '| 编号 | 场景 | 类型 | 输入图数量 | 状态 |', '|---|---|---|---:|---|']
     for item in items:
@@ -256,10 +256,37 @@ def render(root, categories, items, entries):
     return {path: content.rstrip() + '\n' for path, content in output.items()}
 
 
+def render_gallery(gallery):
+    count = max(1, (len(gallery) + GALLERY_PAGE_SIZE - 1) // GALLERY_PAGE_SIZE)
+    filenames = ['gallery.md'] + [f'gallery-{n}.md' for n in range(2, count + 1)]
+    pages = {}
+    for page, filename in enumerate(filenames, 1):
+        navigation = ' · '.join(f'第 {n} 页' if n == page else f'[第 {n} 页]({name})'
+                                for n, name in enumerate(filenames, 1))
+        start = (page - 1) * GALLERY_PAGE_SIZE
+        subset = gallery[start:start + GALLERY_PAGE_SIZE]
+        lines = [f'# 配图浏览 · 第 {page} 页', '', '[返回首页](../README.md) · [试制清单](pilot.md)', '',
+                 f'共 {len(gallery)} 个案例，每页最多 {GALLERY_PAGE_SIZE} 个。点击标题查看完整提示词、输入素材和对应结果。', '', navigation, '']
+        for item in subset:
+            lines += [f"## [{item['id']} · {item['title']}](../{item['page']})", '',
+                      f'<a href="../{item["page"]}"><img src="../{item["preview"]}" alt="{cell(item["title"])}" width="480"></a>', '']
+        lines += [navigation, '']
+        pages[f'docs/{filename}'] = '\n'.join(lines)
+    return pages
+
+
 def build_or_check(root, action):
     categories, items, entries = load_catalog(root)
     pages = render(root, categories, items, entries)
     stale = []
+    for path in (root / 'docs').glob('gallery-*.md'):
+        relative = path.relative_to(root).as_posix()
+        if re.fullmatch(r'gallery-[2-9][0-9]*\.md|gallery-1[0-9]+\.md', path.name) and relative not in pages:
+            if action == 'build':
+                require(path.resolve().is_relative_to((root / 'docs').resolve()), 'Gallery output outside docs')
+                path.unlink()
+            else:
+                stale.append(relative)
     for relative, content in pages.items():
         path = root / relative
         require(path.resolve().is_relative_to(root.resolve()), f'Output outside repository: {relative}')

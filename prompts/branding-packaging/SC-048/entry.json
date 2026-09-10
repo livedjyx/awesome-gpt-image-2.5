@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-048",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创香皂盒平面展开设计",
+      "sha256": "98f53aec9795fa1df1f01176f2cf8435853597016efcda1233e5fb45246f2d86"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "326b8afe631bbba0883341cd16e3da8cb0de3e199d7ae91720a4276e27332e44"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:40:26.573592+00:00",
+    "parameters": {},
+    "prompt_sha256": "67fc35d3d90ec5bcb87a695756780f7300d73c98c81bbf10199166e020a7dfb7"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.257214+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "输入的正面、右侧与顶面图案分别落在盒体对应面，「叶间」「植物香皂」可读。展开图及成品用于外观概念，不作为可制造刀模。"
+  }
+}

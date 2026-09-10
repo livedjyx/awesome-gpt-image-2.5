@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-114",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "ca70bd48f93f8c45d19e1fb684fb6bce6bb8b90c6505cb484bc4326c7b774057"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:45:30.169024+00:00",
+    "parameters": {},
+    "prompt_sha256": "1f82bfd0f4c226d8058dea9597b0fb79cd390f3d3dc09551affd2c82092bd236"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.023470+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "近处沙洲芦苇与淡墨远山形成疏朗构图，宣纸留白充足，水墨干湿变化可辨。"
+  }
+}

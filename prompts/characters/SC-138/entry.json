@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-138",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "9b5039a7b3e30898e4e5a986390190fbfde23da839b3edaf07031737b1590e00"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:49:32.181103+00:00",
+    "parameters": {},
+    "prompt_sha256": "f1984cc513728dcf673b202c273b295634ca9d632b505ae0b8421520e422b6c3"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.106951+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三种植物精灵形态逐渐长大，额头菱形、椭圆眼与深绿叶围巾贯穿，根脚与枝冠连接自然。"
+  }
+}

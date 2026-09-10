@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-103",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "94a3f5f098c059d4c6535ed1ff71be04e2336fc88ec2aaeafb2553789cd4dbb1"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:44:24.152239+00:00",
+    "parameters": {},
+    "prompt_sha256": "d88834d748681359bc8203fb1045eb0bf9efe5a6fb3f097b1c84cfca358a46a1"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.011038+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "六个节点和五条箭头完整，「否」进入归还分支，「是」进入维修分支，没有多余连线。"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-035",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "fdded4ea4214e4b688d1b5ff28c8f82bd1a96b14070d1228ba027b4efae78715"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:39:28.823668+00:00",
+    "parameters": {},
+    "prompt_sha256": "3f6c53e623e825d587d171c0e46b72fb95e0df52d8d5f02d16d509312a9285b9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.252060+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "六件炊具按三列两行排列，锅盖未单列，物件之间有间距，金属与木材细节可辨。"
+  }
+}

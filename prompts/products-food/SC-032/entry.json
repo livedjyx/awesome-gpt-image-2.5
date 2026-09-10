@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-032",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "e2788273d57e704d5299ee63d01672f0f670959c9ddf6c1dda2dacbd631864ae"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:46:31.050713+00:00",
+    "parameters": {},
+    "prompt_sha256": "38864b3911d380a5cd0e8dece72506d8c3e45b28786ae59d5cb498166a6303c5"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:49:44.900068+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "重新生成后为六个清楚分隔的食材层，只有一片生菜，五处层间空隙可见。"
+  }
+}

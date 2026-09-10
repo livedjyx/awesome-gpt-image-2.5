@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-102",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "4c9a0b1f85c4ee5960ee3ac17fd69a9681bfe6da1ca5bccbc6f7977080b05d69"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:43:59.139287+00:00",
+    "parameters": {},
+    "prompt_sha256": "adf2ccc14a214e6104060ec3626a67bbc35267da5c4e3d46b4a0327a984d540f"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:47:58.009038+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "五根柱分别对齐 10、20、30、40、50 刻度，共用零基线，标签与样例数据一致。"
+  }
+}

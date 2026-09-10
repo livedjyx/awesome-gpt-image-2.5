@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-158",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创像素机器人角色参考",
+      "sha256": "95726d807f062fdca63747d652f574326cf40fba1f91644632d7bfc126877c85"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "59848c6387b8408b55cc3aef8cdbe2e380dab4ea22be0256a522d87e8e244e6f"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T10:10:43.701265+00:00",
+    "parameters": {},
+    "prompt_sha256": "d455b12bbe4edb2fb0458fe2d18b66b026984b6bbc021ef9966f25373685450c"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:13:17.425590+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "六格用橙色与深蓝色靴区分前伸、支撑和抬腿阶段，头身比例与像素风格连续；上下半周期的手臂摆动区别较弱，未做逐帧动画播放和引擎对齐验证。"
+  }
+}

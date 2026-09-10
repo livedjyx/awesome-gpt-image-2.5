@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-021",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "1c2efe65cbf1b6eaf874eb83bed487e6247560d2e2c2184d831afdb5eafb5dc3"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:37:04.073056+00:00",
+    "parameters": {},
+    "prompt_sha256": "94b0f85d593e459e44cbc1bfa495aa486247e9fce5f01705f497b2dd7daa1bb3"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.227176+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "木栈桥与芦苇在水面形成对应倒影，轻微波纹和晨雾保留自然水面质感。"
+  }
+}

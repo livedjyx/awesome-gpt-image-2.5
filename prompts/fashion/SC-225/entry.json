@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-225",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "478033e3a814050ccb8c02571cc4d598d5ed7eed8296641a91beda7f825b143b"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:58:45.885898+00:00",
+    "parameters": {},
+    "prompt_sha256": "ec606c0de1e1691e538f3b30edd315df0d01b7951d39e0926f178d760062c3a9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:10:40.598216+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "石柱廊中全身人物穿几何拼色斗篷，暖白三角、陶土色内衬、黑裤与平底鞋可辨；蓝色较提示的钴蓝偏深，布料垂坠自然。"
+  }
+}

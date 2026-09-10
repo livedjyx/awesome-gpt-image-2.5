@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-185",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "0b1977dc1ca9f0a69dc2b55ac8aeb38befb5ad8501a431c971815dd98d59f84c"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:51:49.542089+00:00",
+    "parameters": {},
+    "prompt_sha256": "27173ac195f6071b5808ca54b91f0b423e39b78e4b31dd1b2a007bf039c72b7d"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T10:07:01.143424+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "胡桃木盒四边完整，雨中渡口、靠岸码头与候船棚层次清楚，小船系绳连接岸边，灰色台面保留。"
+  }
+}

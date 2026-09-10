@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-160",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "432b2ae54bf7bfd479f93d08b38755f0f6889a44c8bb134bd1bc21b7247712c3"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:49:57.418234+00:00",
+    "parameters": {},
+    "prompt_sha256": "bbee738decd887fea174bb0fe51e571c782bb2379ff150bdab9a5a99f66293d7"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:59:08.134887+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "六件交通与照明物件清楚，低多边形平面和木石材质一致；缆车上方索缆延伸到画幅边缘。"
+  }
+}

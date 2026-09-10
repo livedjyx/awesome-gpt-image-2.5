@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-116",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "387ba9fa0903421055c86b9dbe5fc7adad8ebe9cf6267158a70f7c2a4b698330"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:06.814195+00:00",
+    "parameters": {},
+    "prompt_sha256": "1c6d2437df354256b3c06caf95ea3271a5e8248cc11ca004a7bb71f188864eb3"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:49:44.916281+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "一人牵一头驮箱骡子沿山路前行，牵绳连接清楚，有限套色与木刻排线可辨。"
+  }
+}

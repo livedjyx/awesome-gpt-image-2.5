@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-003",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "95cc6c3866dfac7321b204053277275f61582a83c26c93f15fdedfb70abae684"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:30:34.571181+00:00",
+    "parameters": {},
+    "prompt_sha256": "74e066705fd7e4c1fbcdd7e034defed58674d77ed2693ff3567906aef24cceb9"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.201246+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "黄昏码头、灰蓝外套与帆布包对应提示词，胶片颗粒和左侧轻微漏光可见，人物皮肤与暗部保留细节。"
+  }
+}

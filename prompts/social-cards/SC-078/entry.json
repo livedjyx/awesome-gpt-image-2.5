@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-078",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "6a4dce63ba671da42852a16f5bd5bea32443d8a1a7039704b9df27a6d58fb302"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:44:09.146000+00:00",
+    "parameters": {},
+    "prompt_sha256": "123f57d13f1c1ef1c5823dd19f8b666ab1e3c78556e5ef37f3e642932d175232"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.284264+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "三位虚构发言人、三条消息与活动时间完整可读，界面层级清楚，额外海港插画不遮文字。"
+  }
+}

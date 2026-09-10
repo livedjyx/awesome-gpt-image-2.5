@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-148",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "a591ecdb3e52bb1d6fb25eb74bc9c7e7642ed07ab9b70ce94eca2d4331281496"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:48:35.584788+00:00",
+    "parameters": {},
+    "prompt_sha256": "7a08e319e8e645e53c0a6d6f13aa7192702a84218647e0e39a6e25d5f06cea89"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.114709+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "四格无字故事动作可读，绿外套和橙围裙人物保持一致，支架、布带与扶正树干关系清楚。"
+  }
+}

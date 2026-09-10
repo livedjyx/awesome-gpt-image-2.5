@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "SC-134",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [
+    {
+      "path": "images/input-01.png",
+      "purpose": "原创浣熊信使角色参考",
+      "sha256": "e6c0e85434bec78e7f2ce90aa9256618bd2a9b24990d0de499445d7817d96df5"
+    }
+  ],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "355d484eaa5604479ead4efc3508009bc4685ba251a968bdcd84e6c13fcaa8f5"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:47:12.305266+00:00",
+    "parameters": {},
+    "prompt_sha256": "e5359c191aecbecb27336e242320a3ab76909620096e47d3b5327886ee931aff"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:50:50.092606+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "pass",
+      "edit_scope": "na"
+    },
+    "notes": "六枚表情与六句短语对应，浣熊的眼罩纹、帽子、马甲及邮包延续参考；半身贴纸的头顶留白较紧。"
+  }
+}

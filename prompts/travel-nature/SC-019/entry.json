@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "id": "SC-019",
+  "status": "generated",
+  "prompt_file": "prompt.md",
+  "inputs": [],
+  "result": {
+    "path": "images/result-01.png",
+    "sha256": "f742ffe189a36314befbff37ce133158b629f1568fc3794ba52fc55872128607"
+  },
+  "generation": {
+    "model": null,
+    "model_confirmed": false,
+    "interface": "codex",
+    "generated_at": "2026-09-10T09:35:56.416784+00:00",
+    "parameters": {},
+    "prompt_sha256": "95a07b04e601ea45c811bf394171602e12f06c13b04f56e95de71a7205ae4fd0"
+  },
+  "review": {
+    "reviewer": "Codex 视觉检查",
+    "reviewed_at": "2026-09-10T09:45:49.219969+00:00",
+    "checks": {
+      "prompt_alignment": "pass",
+      "style_fidelity": "pass",
+      "readability": "pass",
+      "text_and_count": "pass",
+      "reference_fidelity": "na",
+      "edit_scope": "na"
+    },
+    "notes": "电车运动模糊与沿轨道延伸的光迹清楚，静止建筑保持锐利，湿地反光方向连贯。"
+  }
+}
